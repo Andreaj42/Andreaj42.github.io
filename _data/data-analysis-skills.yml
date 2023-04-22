@@ -1,0 +1,11 @@
+- name: Power BI
+  percentage: 95
+  color: info
+
+- name: Pi Vision
+  percentage: 90
+  color: success
+
+- name: MicroStrategy
+  percentage: 50
+  color: secondary
