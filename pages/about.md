@@ -8,12 +8,12 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}**,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I am currently a student at Télécom Saint-Etienne, specializing in data engineering. At the same time, I work as a digital development support in a Michelin factory.
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Data Analysis Skills" source=site.data.data-analysis-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Programming" source=site.data.programming-skills %}
+{% include about/skills.html title="Data Analysis" source=site.data.data-analysis-skills %}
+{% include about/skills.html title="Other" source=site.data.other-skills %}
 </div>
 
 <div class="row">
