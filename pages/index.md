@@ -4,3 +4,9 @@ permalink: /
 ---
 
 {% include landing.html %}
+
+Latest News:
+{% assign news_list = site.news | sort: "date" | reverse %}
+{% assign news_counter = 0 %} {% for news in news_list %} {% if news_counter < 5 %}
+{{ news.date | date: '%-d %B, %Y'}}: {{ news.info }}
+{% assign news_counter = news_counter | plus: 1 %} {% endif %} {% endfor %}
