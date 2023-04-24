@@ -1,8 +1,8 @@
 ---
 name: Alerting Moodle
 tools: [Python]
-image: assets/Moodle-logo.png
-description: Altering system for Moodle
+image: ![image tooltip here](/assets/Moodle-logo.png)
+description: Alerting system for Moodle
 ---
 
 # The alerting Moodle Project
