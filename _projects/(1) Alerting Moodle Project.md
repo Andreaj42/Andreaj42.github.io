@@ -1,7 +1,7 @@
 ---
 name: Alerting Moodle
 tools: [Python]
-image: ![image tooltip here](/assets/Moodle-logo.png)
+image: /assets/Moodle-logo.png
 description: Alerting system for Moodle
 ---
 
