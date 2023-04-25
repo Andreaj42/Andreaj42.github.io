@@ -3,7 +3,7 @@ name: JupyterHub
 tools: [Python]
 image: /images/projects/JupyterHub.png
 description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
-realease-date: 2023-04-01
+release-date: 2023-04-01
 ---
 
 # The Movies Project
