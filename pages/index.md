@@ -5,7 +5,7 @@ permalink: /
 
 {% include landing.html %}
 
-<div style="font-size: 16px; color: #333; font-weight: bold; padding-bottom: 10px;">Latest projects:</div>
+<div style="font-size: 18px; color: #333; font-weight: bold; padding-bottom: 10px;">Latest projects:</div>
 {% assign projects_list = site.projects | sort: "release-date" | reverse %}
 
 <ul>
