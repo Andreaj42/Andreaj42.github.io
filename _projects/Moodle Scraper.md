@@ -22,5 +22,5 @@ Coming soon ...
 ### Discord
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="GitHub Repository" %}
+{% include elements/button.html link="https://github.com/Andreaj42/Moodle-Grades-Scraper" text="GitHub Repository" %}
 </p>
