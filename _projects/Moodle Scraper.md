@@ -3,7 +3,7 @@ name: Moodle Scraper
 tools: [Python]
 image: /images/projects/Moodle.png
 description: Alerting system to track new grades on Moodle
-realease-date: 2015-09-25
+realease-date: 2023-01-01
 ---
 
 # The alerting Moodle Project
