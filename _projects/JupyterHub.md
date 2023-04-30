@@ -6,13 +6,14 @@ description: Installation of JupyterHub to enable multiple users to access Jupyt
 release-date: 2023-04-01
 ---
 
-# The Movies Project
+# JupyterHub Project
 
 The JupyterHub is available from <a href="https://jupyter.andrea-joly.fr"> **Jupyter.andrea-joly.fr** </a>
 
+Installation and configuration of a JupyterHub to run Jupyter Notebooks on a cluster. The main advantage of this installation is the possibility to increase the resources for intensive calculations. JupyterHub also brings the power of notebooks to groups of users.
 
 ![image-title-here](/images/projects/JupyterHub/architecture.png){:class="img-responsive"}
 
 <p class="text-center">
-{% include elements/button.html link="https://jupyter.org/hub" text="Learn More" %}
+{% include elements/button.html target="_blank" link="https://jupyter.org/hub" text="Learn More" %}
 </p>
