@@ -1,13 +1,11 @@
 - title: Engineering student, Télécom Saint-Étienne
   from: 2021
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: A three-year engineering course specialising in data, which gives me the opportunity to 
+               develop advanced technical skills in this domain. This apprenticeship takes place in a 
+               sandwich course, with work experience at Michelin, which gives me the chance to combine theory with practice
                <p class="text-center">
-               <a class="m-1 btn btn-outline-primary btn-2" href="https://www.telecom-st-etienne.fr"> 
+               <a class="m-1 btn btn-outline-primary btn-2" href="https://www.telecom-st-etienne.fr" target="_blank"> 
                Télécom Saint-Étienne 
                </a>
                </p>
@@ -21,7 +19,7 @@
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                <p class="text-center">
-               <a class="m-1 btn btn-outline-primary btn-2" href="https://www.aurismagnetic.com"> 
+               <a class="m-1 btn btn-outline-primary btn-2" href="https://www.aurismagnetic.com" target="_blank"> 
                Auris 
                </a>
                </p>
@@ -36,7 +34,7 @@
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                <p class="text-center">
-               <a class="m-1 btn btn-outline-primary btn-2" href="https://www.telecom-st-etienne.fr"> 
+               <a class="m-1 btn btn-outline-primary btn-2" href="https://www.telecom-st-etienne.fr" target="_blank"> 
                Télécom Saint-Étienne 
                </a>
                </p>
