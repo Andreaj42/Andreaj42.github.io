@@ -10,6 +10,7 @@ release-date: 2023-04-01
 
 The JupyterHub is available from <a href="https://jupyter.andrea-joly.fr"> **Jupyter.andrea-joly.fr** </a>
 
+## Description
 Installation and configuration of a JupyterHub to run Jupyter Notebooks on a cluster. The main advantage of this installation is the possibility to increase the resources for intensive calculations. JupyterHub also brings the power of notebooks to groups of users.
 
 ![image-title-here](/images/projects/JupyterHub/architecture.png){:class="img-responsive"}
