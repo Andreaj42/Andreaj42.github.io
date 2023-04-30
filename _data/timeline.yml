@@ -10,14 +10,13 @@
                </a>
                </p>
 
-- title: CITISE, Télécom Saint-Étienne
+- title: Internship, Auris
   from: 2021
   to: 2021
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: 10-week internship at Auris, a company specialised in the sale of magnetic therapy devices. In the R&D department, 
+               I participated in the design of a new magnetic therapy device. This mission led me to develop an embedded system on Arduino, 
+               to program a mobile application to control the device, as well as to create an electrical circuit to manage 
+               the power supply of the coils emitting the pulsed fields.
                <p class="text-center">
                <a class="m-1 btn btn-outline-primary btn-2" href="https://www.aurismagnetic.com" target="_blank"> 
                Auris 
