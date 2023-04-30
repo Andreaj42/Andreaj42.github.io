@@ -7,7 +7,9 @@
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                <p class="text-center">
-               {% include elements/button.html link="https://www.telecom-st-etienne.fr/" text="Télécom Saint-Étienne" %}
+               <a class="m-1 btn btn-outline-primary btn-2" style="width: 80px;" href="https://www.telecom-st-etienne.fr"> 
+               Télécom Saint-Étienne 
+               </a>
                </p>
 
 - title: CITISE, Télécom Saint-Étienne
@@ -19,7 +21,7 @@
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                <p class="text-center">
-               <a class="m-1 btn btn-outline-primary btn-2 " href="https://www.aurismagnetic.com"> 
+               <a class="m-1 btn btn-outline-primary btn-2" style="width: 80px;" href="https://www.aurismagnetic.com"> 
                Auris 
                </a>
                </p>
@@ -33,7 +35,11 @@
                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-               <p class="text-center">{% include elements/button.html link="https://www.telecom-st-etienne.fr/" text="Télécom Saint-Étienne" %}</p>
+               <p class="text-center">
+               <a class="m-1 btn btn-outline-primary btn-2" style="width: 80px;" href="https://www.telecom-st-etienne.fr"> 
+               Télécom Saint-Étienne 
+               </a>
+               </p>
   
 - title: Student, Lycée l'Astrée
   from: 2016
