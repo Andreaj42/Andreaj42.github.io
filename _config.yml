@@ -1,7 +1,9 @@
 ### Site Settings ###
 title               : Andréa Joly
 description         : >-
-                      Data engineer apprentice
+                      Data Scientist apprentice,
+                      Interested in Machine Learning,
+                      Passionate about IT, aviation and French gastronomy 
 baseurl             : ""
 repository          : Andreaj42/Andreaj42.github.io
 remote_theme        : YoussefRaafatNasry/portfolYOU
