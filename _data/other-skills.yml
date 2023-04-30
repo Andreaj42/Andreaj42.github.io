@@ -1,7 +1,7 @@
-- name: Projet management
+- name: Project management
   percentage: 80
   color: success
 
 - name: 3D Printing
-  percentage: 50
-  color: info
+  percentage: 40
+  color: danger
