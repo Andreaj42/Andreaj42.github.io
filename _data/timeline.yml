@@ -27,11 +27,10 @@
 - title: CITISE, Télécom Saint-Étienne
   from: 2019
   to: 2021
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Integrated preparatory course provided by the Télécom Saint-Etienne engineering school.
+               The courses are divided into two campuses, the theoretical parts are studied at Télécom Saint-Etienne
+               while the more technical parts are given at the IUT Jean Monnet to obtain a DUT GEII.
+               Citise = Initial Cycle in Information Technology in Saint-Etienne
                <p class="text-center">
                <a class="m-1 btn btn-outline-primary btn-2" href="https://www.telecom-st-etienne.fr" target="_blank"> 
                Télécom Saint-Étienne 
@@ -41,9 +40,6 @@
 - title: Student, Lycée l'Astrée
   from: 2016
   to: 2019
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Scientific Baccalaureate in Life and Earth Sciences (S.V.T.) 
+               with a specialization in Computer and Digital Sciences (I.S.N.)
                
