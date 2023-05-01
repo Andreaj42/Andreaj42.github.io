@@ -3,7 +3,7 @@ name: Magnetic Therapy Device
 tools: [Arduino, Xamarin, Proteus]
 image: /images/projects/JupyterHub.png
 description: Installation of JupyterHub to enable multiple users to access Jupyter notebooks through a web browser.
-release-date: 2023-04-01
+release-date: 2021-06-01
 ---
 
 # The Movies Project
