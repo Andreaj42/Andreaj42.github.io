@@ -1,45 +1,39 @@
+- title: Apprentice, Michelin
+  from: 2021
+  to: present
+  description: 3 years apprenticeship at <a href="https://www.michelin.fr/" target="_blank"> 
+               Michelin </a> in addition to my engineering studies. 
+               My primary mission is to support a local team in the digitalization of a plant (UMO). 
+               I perform data analysis and project management tasks.
+
 - title: Engineering student, Télécom Saint-Étienne
   from: 2021
   to: present
-  description: A three-year engineering course specialising in data, which gives me the opportunity to 
+  description: A 3-year engineering course specialising in data provided by the <a href="https://www.telecom-st-etienne.fr" target="_blank"> 
+               Télécom Saint-Étienne </a> engineering school, which gives me the opportunity to 
                develop advanced technical skills in this domain. This apprenticeship takes place in a 
-               sandwich course, with work experience at Michelin, which gives me the chance to combine theory with practice
-               <p class="text-center">
-               <a class="m-1 btn btn-outline-primary btn-2" href="https://www.telecom-st-etienne.fr" target="_blank"> 
-               Télécom Saint-Étienne 
-               </a>
-               </p>
+               sandwich course, with work experience at Michelin, which gives me the chance to combine theory with practice.
 
 - title: Internship, Auris
   from: 2021
   to: 2021
-  description: 10-week internship at Auris, a company specialised in the sale of magnetic therapy devices. In the R&D department, 
+  description: 10-week internship at <a href="https://www.aurismagnetic.com" target="_blank"> Auris </a>, a 
+               company specialised in the sale of magnetic therapy devices. In the R&D department, 
                I participated in the design of a new magnetic therapy device. This mission led me to develop an embedded system on Arduino, 
                to program a mobile application to control the device, as well as to create an electrical circuit to manage 
                the power supply of the coils emitting the pulsed fields.
-               <p class="text-center">
-               <a class="m-1 btn btn-outline-primary btn-2" href="https://www.aurismagnetic.com" target="_blank"> 
-               Auris 
-               </a>
-               </p>
-
 
 - title: CITISE, Télécom Saint-Étienne
   from: 2019
   to: 2021
-  description: Integrated preparatory course provided by the Télécom Saint-Etienne engineering school.
-               The courses are divided into two campuses, the theoretical parts are studied at Télécom Saint-Etienne
-               while the more technical parts are given at the IUT Jean Monnet to obtain a DUT GEII.
-               Citise = Initial Cycle in Information Technology in Saint-Etienne
-               <p class="text-center">
-               <a class="m-1 btn btn-outline-primary btn-2" href="https://www.telecom-st-etienne.fr" target="_blank"> 
-               Télécom Saint-Étienne 
-               </a>
-               </p>
+  description: Integrated preparatory course provided by the <a href="https://www.telecom-st-etienne.fr" target="_blank"> 
+               Télécom Saint-Étienne </a> engineering school. The courses are divided into two campuses, the theoretical 
+               parts are studied at Télécom Saint-Etienne while the more technical parts are given at the IUT Jean Monnet to obtain a DUT GEII. <br>
+               * Citise = Initial Cycle in Information Technology in Saint-Etienne *
   
 - title: Student, Lycée l'Astrée
   from: 2016
   to: 2019
   description: Scientific Baccalaureate in Life and Earth Sciences (S.V.T.) 
-               with a specialization in Computer and Digital Sciences (I.S.N.)
+               with a specialization in Computer and Digital Sciences. (I.S.N.)
                
