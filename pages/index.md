@@ -18,6 +18,11 @@ permalink: /
 {% endfor %}
 </ul>
 
-<p align="center">
-<iframe src="https://www.google.com/maps/d/embed?mid=1IDVrNma3ORrPVoXOg7vDJWTnHwe65z0&ehbc=2E312F" width="640" height="480"></iframe>
-</p>
+<div style="width: 100%; overflow: hidden; height: 800px;" align="center">
+    <iframe 
+        src="https://www.google.com/maps/d/embed?mid=1IDVrNma3ORrPVoXOg7vDJWTnHwe65z0&output=embed&ehbc=2E312F"
+        width="1000"
+        height="800"
+        style="margin-top: -150px;">
+    </iframe>
+</div>
