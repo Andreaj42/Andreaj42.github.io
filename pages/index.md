@@ -18,8 +18,8 @@ permalink: /
 {% endfor %}
 </ul>
 
-<div style ="padding-top :80%; position = relative; overflow : hidden;">
-    <iframe style =" position: absolute; top: 0; left: 0; width: 100%;  height: 100%; border: 0;"
+<div align = "center" style ="padding-top : 5%; position = relative; overflow : hidden;">
+    <iframe style ="width : 100%; height :500px;"
         src="https://www.google.com/maps/d/embed?mid=1IDVrNma3ORrPVoXOg7vDJWTnHwe65z0&output=embed&ehbc=2E312F">
     </iframe>
 </div>
