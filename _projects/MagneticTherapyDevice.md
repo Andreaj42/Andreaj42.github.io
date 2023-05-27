@@ -1,12 +1,12 @@
 ---
 name: Magnetic Therapy Device
 tools: [Arduino, Xamarin, Proteus]
-image: /images/projects/JupyterHub.png
-description: Installation of JupyterHub to enable multiple users to access Jupyter notebooks through a web browser.
+image: /images/projects/MagneticTherapyDevice/MagneticTherapyDevice.png
+description: Creation of a magnetic therapy device controllable by smartphone
 release-date: 2021-06-01
 ---
 
-# The Movies Project
+# Magnetic therapy device
 
 The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
 
