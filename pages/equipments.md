@@ -2,7 +2,7 @@
 layout: page
 title: Equipments
 permalink: /equipments/
-weight: 1
+weight: 3
 ---
 
 # **Equipments**
