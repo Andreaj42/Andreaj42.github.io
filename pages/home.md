@@ -9,7 +9,7 @@ weight: 1
 Here are all the materials I use to work.
 
 ## **Server**
-Server Rack PowerEdge R720 : 
+Server Rack Dell PowerEdge R720 : 
 - 2 * Intel(R) Xeon(R) E5-2609 4-Core 2.40GHz
 - 72 Go RAM
 - 1 To HDD
@@ -33,3 +33,6 @@ Lenovo  :
 - 8 Go RAM
 - 512 Go SSD
 - NVIDIA GeForce GTX 1050
+
+## 3D Printing
+Creality Ender 3 Pro
