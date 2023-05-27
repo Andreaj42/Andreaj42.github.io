@@ -18,10 +18,8 @@ permalink: /
 {% endfor %}
 </ul>
 
-<div align="center">
-    <iframe 
-        src="https://www.google.com/maps/d/embed?mid=1IDVrNma3ORrPVoXOg7vDJWTnHwe65z0&output=embed&ehbc=2E312F"
-        width="1000"
-        height="800">
+<div style ="padding-top :80%; position = relative; overflow : hidden;">
+    <iframe style =" position: absolute; top: 0; left: 0; width: 100%;  height: 100%; border: 0;"
+        src="https://www.google.com/maps/d/embed?mid=1IDVrNma3ORrPVoXOg7vDJWTnHwe65z0&output=embed&ehbc=2E312F">
     </iframe>
 </div>
