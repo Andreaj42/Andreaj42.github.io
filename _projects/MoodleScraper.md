@@ -6,20 +6,17 @@ description: Alerting system to track new grades on Moodle
 release-date: 2023-01-01
 ---
 
-# The alerting Moodle Project
+# The Moodle Alert Project
 
-The alerting Moodle project is 
+The Moodle alert project is a collaborative initiative between me and my classmate <a href = "https://fr.linkedin.com/in/lucas-perfeito"> Lucas Perfeito</a>. Using web scraping on our school's Moodle website, we've set up an alert system, via Discord or by e-mail, to inform our classmates when a new note is added or modified. The script used for this project is hosted on our own servers and executed using batch files (systemctl).
 
-Coming soon ...
 
-<!--
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
--->
-## Alerting
+### Mail alert sample
+![notify](/images/projects/Moodle/mail.png)
 
-### Mail
+### Discord alert sample
+![notify](/images/projects/Moodle/discord.png)
 
-### Discord
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/Andreaj42/Moodle-Grades-Scraper" text="GitHub Repository" %}
