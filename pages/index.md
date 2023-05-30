@@ -5,7 +5,10 @@ permalink: /
 
 {% include landing.html %}
 
-<div style="font-size: 18px; color: #333; font-weight: bold; padding-bottom: 10px;">Latest projects:</div>
+<div style="font-size: 18px; padding-bottom: 10px;">Thank you to Mr <a href ="jordan-frecon.com"> Jordan Frecon-Deloire </a> for his excellent transmission of skills and knowledge. His expertise in machine learning and his undeniable passion for teaching are my greatest source of inspiration.</div>
+
+
+<div style="font-size: 18px; font-weight: bold; padding-bottom: 10px;">Latest projects:</div>
 {% assign projects_list = site.projects | sort: "release-date" | reverse %}
 
 <ul>
