@@ -9,7 +9,7 @@ weight: 1
 
 # The Moodle Alert Project
 
-The Moodle alert project is a collaborative initiative between me and my classmate <a href = "https://fr.linkedin.com/in/lucas-perfeito"> Lucas Perfeito</a>. Using web scraping on our school's Moodle website, we've set up an alert system, via Discord or by e-mail, to inform our classmates when a new note is added or modified. The script used for this project is hosted on our own servers and executed using batch files (systemctl).
+The Moodle alert project is a collaborative initiative between me and my classmate <a href = "https://fr.linkedin.com/in/lucas-perfeito"> Lucas Perfeito</a>. Using web scraping on our school's Moodle website, we've set up an alert system, via Discord or by e-mail, to inform our classmates when a new note is added or modified. The script used for this project is hosted on our own servers and executed using services systemd.
 
 
 ### Mail alert sample
