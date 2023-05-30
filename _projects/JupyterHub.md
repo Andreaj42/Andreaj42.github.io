@@ -4,6 +4,7 @@ tools: [Python]
 image: /images/projects/JupyterHub/JupyterHub.png
 description: Installation of JupyterHub to enable multiple users to access Jupyter notebooks through a web browser
 release-date: 2023-04-01
+weight: 2
 ---
 
 # JupyterHub Project
