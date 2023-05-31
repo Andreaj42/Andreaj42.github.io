@@ -6,7 +6,7 @@ permalink: /
 {% include landing.html %}
 
 
-<div style="font-size: 16px; font-weight: bold; padding-bottom: 20px; text-align: center;"><hr>Thank to Mr. <a href ="jordan-frecon.com"> Jordan Frecon-Deloire </a> for his excellent transmission of skills and knowledge. His expertise in machine learning and his undeniable passion for teaching are my greatest source of inspiration.<hr></div>
+<div style="font-size: 16px; font-weight: bold; padding-bottom: 20px; text-align: center;"><hr>Thank to Mr. <a href ="https://jordan-frecon.com"> Jordan Frecon-Deloire </a> for his excellent transmission of skills and knowledge. His expertise in machine learning and his undeniable passion for teaching are my greatest source of inspiration.<hr></div>
 
 
 
