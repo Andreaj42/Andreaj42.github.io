@@ -10,9 +10,9 @@ Here are all the materials I use to work.
 
 ## **Server**
 **Server Rack Dell PowerEdge R720**
-- 2 * Intel(R) Xeon(R) E5-2609 4-Core 2.40GHz
+- 2 * Intel(R) Xeon(R) E5-2609 4-Core 2.40 GHz
 - 72 Go RAM DDR3
-- 1 To HDD
+- 6 To SSD
 
 ## **Desktop computers**
 **Main setup**
@@ -30,7 +30,7 @@ Here are all the materials I use to work.
 - 256 Go SSD
 
 **Lenovo**
-- Intel(R) Core(TM) i5-9300H 4-Core 2.40GHz
+- Intel(R) Core(TM) i5-9300H 4-Core 2.40 GHz
 - 8 Go RAM
 - 512 Go SSD
 - NVIDIA GeForce GTX 1050
