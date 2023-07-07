@@ -14,10 +14,8 @@ The Moodle Grades Scraper project is a collaborative initiative between me and m
 This project is designed with Python 🐍 for the script part, Docker 🐳 for the deployement part and MariaDB for the storage part.
 Alerts can be send by e-mail or with Discord notifications (via a webhook), as shown in the following images.
 
-### Discord alert sample
 ![notify](/images/projects/Moodle/discord.png)
 
-### Mail alert sample
 ![notify](/images/projects/Moodle/mail.png)
 
 
