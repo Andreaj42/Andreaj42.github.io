@@ -9,10 +9,14 @@ weight: 3
 Here are all the materials I use to work.
 
 ## **Server**
+**Server Rack Dell PowerEdge R730**
+
+
 **Server Rack Dell PowerEdge R720**
 - 2 * Intel(R) Xeon(R) E5-2609 4-Core 2.40 GHz
 - 72 Go RAM DDR3
 - 6 To SSD
+
 
 ## **Desktop computers**
 **Main setup**
