@@ -8,7 +8,7 @@ weight: 3
 # **Equipments**
 Here are all the materials I use to work.
 
-## **Server**
+## **Servers**
 **Server Rack Dell PowerEdge R730**
 
 
