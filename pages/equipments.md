@@ -17,7 +17,7 @@ Here are all the materials I use to work.
 - 72 Go RAM DDR3
 - 6 To SSD
 
-
+<!--
 ## **Desktop computers**
 **Main setup**
 
@@ -38,6 +38,7 @@ Here are all the materials I use to work.
 - 8 Go RAM
 - 512 Go SSD
 - NVIDIA GeForce GTX 1050
+-->
 
 ## **3D Printers**
 **Creality Ender 3 Pro**
