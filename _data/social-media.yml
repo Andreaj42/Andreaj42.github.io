@@ -5,28 +5,34 @@ email:
   url   : "mailto:"
   icon  : fas fa-envelope
   color : db4437
+  name  : e-mail
 
 github:
   url   : https://www.github.com/
   icon  : fab fa-github
   color : 333333
+  name : GitHub
 
 gitlab:
   url   : https://www.gitlab.com/
   icon  : fab fa-gitlab
   color : fca326
+  name : GitLab
 
 instagram:
   url   : https://www.instagram.com/
   icon  : fab fa-instagram
   color : 405de6
+  name : Instagram
   
 linkedin:
   url   : https://www.linkedin.com/in/
   icon  : fab fa-linkedin-in
   color : 007bb5
+  name : LinkedIn
 
 medium:
   url   : https://medium.com/@
   icon  : fab fa-medium
   color : 00ab6c
+  name : Medium
