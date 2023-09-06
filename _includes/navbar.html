@@ -50,9 +50,9 @@
         {%- else -%}
           {%- assign url = html_page.url | relative_url -%}
         {%- endif -%}
-      <h5>
+      
         <a class="nav-item nav-link {{ active_status }}" href="{{ url }}" {%- if html_page.external_url and site.open_new_tab -%} target="_blank" {%- endif -%} >{{ html_page.title }}</a>
-      </h5>
+      
       {% endfor %}
 
       <span id="theme-toggler" class="nav-item nav-link" aria-label="toggleTheme" role="button" onclick="toggleTheme()"></span>
