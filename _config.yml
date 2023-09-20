@@ -15,7 +15,7 @@ plugins:
 
 
 ### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
+nav_exclude:
   - pages/tags.html
   - pages/404.html
   - pages/index.md
@@ -25,11 +25,11 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Andréa Joly
   image             : images/identity.jpg
-  email             : no-reply@andrea-joly.fr
+  email             : administrateur@andrea-joly.fr
   github            : Andreaj42
-# gitlab            : your_username
   instagram         : andrea42130
   linkedin          : andréa-joly
+# gitlab            : your_username
 # medium            : your_username
 
 
@@ -54,9 +54,8 @@ defaults:
   - scope:
       path: ""
       type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
 
+favicon: /favicon.ico
 
 ### Exclude from processing ###
 exclude:
