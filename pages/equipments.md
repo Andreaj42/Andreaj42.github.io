@@ -17,6 +17,10 @@ Here are all the materials I use to work.
 - 72 Go RAM DDR3
 - 6 To SSD
 
+**Switch Dell PowerConnect 2848**
+- 48 10/100/1000BASE-T ports
+- 4 ports SFP
+
 <!--
 ## **Desktop computers**
 **Main setup**
@@ -42,3 +46,4 @@ Here are all the materials I use to work.
 
 ## **3D Printers**
 **Creality Ender 3 Pro**
+- Remote-controlled by a Rasberry Pi 4 Model B
