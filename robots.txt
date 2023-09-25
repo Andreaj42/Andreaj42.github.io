@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: 
+Disallow: /jupyter.andrea-joly.fr/
