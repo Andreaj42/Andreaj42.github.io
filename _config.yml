@@ -1,13 +1,10 @@
 ### Site Settings ###
 title               : Andréa Joly
-description         : >-
-                      Data Scientist apprentice,<br>
-                      Interested in ML/AI,<br> 
-                      Passionate about IT and aviation
+description         : >- 
+                      CV website of M. Andréa Joly, a data scientist apprentice
 baseurl             : ""
 repository          : Andreaj42/Andreaj42.github.io
 remote_theme        : YoussefRaafatNasry/portfolYOU
-
 
 ### Plugins ###
 plugins:
@@ -31,11 +28,6 @@ author:
   linkedin          : andréa-joly
 # gitlab            : your_username
 # medium            : your_username
-
-
-### Posts ###
-permalink: /blog/:title
-
 
 ### Collections ###
 collections:
