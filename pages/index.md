@@ -6,7 +6,7 @@ permalink: /
 {% include landing.html %}
 
 
-
+<!-- 
 <div style="font-size: 18px; font-weight: bold; padding-bottom: 10px;">Latest projects:</div>
 {% assign projects_list = site.projects | sort: "release-date" | reverse %}
 
@@ -19,9 +19,19 @@ permalink: /
     {% endif %} 
 {% endfor %}
 </ul>
+
 <!-- div align = "center" style ="padding-top : 3%; position = relative; overflow : hidden;">
     <iframe style ="width : 100%; height :500px;"
         src="https://www.google.com/maps/d/embed?mid=1IDVrNma3ORrPVoXOg7vDJWTnHwe65z0&output=embed&ehbc=2E312F">
     </iframe>
 </div>
 -->
+
+<div class="row">
+{% include about/intro.html %}
+</div>
+
+
+<div class="row">
+{% include about/timeline.html %}
+</div>
