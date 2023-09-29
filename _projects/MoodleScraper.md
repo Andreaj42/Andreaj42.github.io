@@ -11,8 +11,7 @@ weight: 1
 
 The Moodle Grades Scraper project is a collaborative initiative between me and my classmate <a href = "https://fr.linkedin.com/in/lucas-perfeito"> Lucas Perfeito</a>. Using web scraping on our school's Moodle website, we've set up an alert system, via Discord or by e-mail, to inform our classmates when a new note is added or modified. The script used for this project is hosted on our own servers.
 
-This project is designed with Python 🐍 for the script part, Docker 🐳 for the deployement part and MariaDB for the storage part.
-Alerts can be send by e-mail or with Discord notifications (via a webhook), as shown in the following images.
+This project is designed with Python, Docker and MariaDB. Alerts can be send by e-mail or with Discord notifications (via a webhook), as shown in the following images.
 
 ![notify](/images/projects/Moodle/discord.png)
 
