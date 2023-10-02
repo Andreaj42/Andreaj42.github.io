@@ -43,9 +43,6 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
 
 favicon: /assets/favicon.ico
 
