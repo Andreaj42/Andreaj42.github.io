@@ -5,7 +5,7 @@ permalink: /credits/
 weight: 4
 ---
 
-# **Credits**
+# **Aknowledgement**
 
 
 <div class="row">
