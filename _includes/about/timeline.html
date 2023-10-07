@@ -23,7 +23,7 @@
         display: inline-block;
         position: absolute;
         border-radius: 50%;
-        border: 3px solid #22c0e8;
+        border: 3px solid #666e78;
         left: 20px;
         width: 20px;
         height: 20px;
@@ -36,8 +36,8 @@
     <ul class="timeline">
       {% for item in site.data.timeline %}
       <li class="timeline-item mb-5">
-          <a style="font-weight: bold;">{{ item.title }}</a>
-          <a class="float-right">{{ item.from }} — {{ item.to }}</a>
+          <h7 style="font-weight: bold;">{{ item.title }}</h7>
+          <h7 style="font-style:italic;" class="float-right">{{ item.from }} — {{ item.to }}</h7>
           <p>{{ item.description }}</p>
           <hr style="background-color: #d4d9df;">
       </li>
