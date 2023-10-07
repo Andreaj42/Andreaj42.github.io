@@ -1,5 +1,4 @@
 <div class="container-fluid justify-content-center">
-
   {%- assign unfocused_color = "6c757d" -%}
 
   {% for account in site.author %}
@@ -11,11 +10,10 @@
        style="color: #{{ unfocused_color }}"
        onMouseOver="this.style.color='#{{ service_data.color }}'"
        onMouseOut="this.style.color='#{{ unfocused_color }}'"
-       aria-label="{{ service_data.name }} on {{ service_name }}">
+       aria-label="{{ service_data.name }}">
       <i class="{{ service_data.icon }} fa-1x" alt="{{ service_data.name }} icon"></i>
     </a>
     {%- endif -%}
   
   {% endfor %}
-
 </div>
