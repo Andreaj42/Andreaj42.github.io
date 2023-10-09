@@ -9,7 +9,7 @@ weight: 3
 My Homelab is more than just a technological hobby. It's my digital playground, where I explore, learn and create. In this section, I share my hardware and the projects I've completed, demonstrating my devotion to technological innovation and lifelong learning.
 
 
-# Equipments
+# Hardware
 Here are all the materials I use to work.
 ## **Servers**
 **Server Rack Dell PowerEdge R730**
@@ -30,6 +30,7 @@ Here are all the materials I use to work.
 - Remote-controlled by a Rasberry Pi 4 Model B
 - Operating System : OctoPi 1.0.0
 
+# Software
 ## Self-Hosted Tools
 
 I've set up and maintained a collection of self-hosted tools on my Homelab. These tools have not only empowered me to streamline various tasks but have also fostered collaborative work and resource optimization.
