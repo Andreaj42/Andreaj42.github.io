@@ -38,7 +38,7 @@ This technology allows me to :
 - Monitor vital environmental metrics (temperature and relative humidity)
 - Monitor soil moisture of a <a href="https://andrea-joly.fr/projects/indoorgarden">indoor garden </a> 
 - Control dishwasher
-- Control connectds TVs
+- Control connected TVs
 - ... 
 
 ## Self-Hosted Tools
