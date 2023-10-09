@@ -30,15 +30,6 @@ Here are all the materials I use to work.
 - Remote-controlled by a Rasberry Pi 4 Model B
 - Operating System : OctoPi 1.0.0
 
-# Home automation
-This technology allows me to :
-- Monitor solar panel production
-- Monitor vital environmental metrics (temperature and relative humidity)
-- Monitor soil moisture of a <a href="https://andrea-joly.fr/projects/indoorgarden">indoor garden </a> 
-- Control dishwasher
-- Control connected TVs
-- ... 
-
 ## Self-Hosted Tools
 
 I've set up and maintained a collection of self-hosted tools on my Homelab. These tools have not only empowered me to streamline various tasks but have also fostered collaborative work and resource optimization.
@@ -48,4 +39,3 @@ I've set up and maintained a collection of self-hosted tools on my Homelab. Thes
 
 ## Other Tools
 - **Tailscale**: For seamless and secure remote access to my home network, I use on <a href="https://tailscale.com/">Tailscale</a>, a versatile and user-friendly VPN solution. By incorporating Tailscale into my network infrastructure, I've gained the flexibility and reliability needed to stay connected and in control, regardless of my physical location.
-
