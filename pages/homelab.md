@@ -10,7 +10,7 @@ Here are all the materials I use to work.
 
 ## **Servers**
 **Server Rack Dell PowerEdge R730**
-
+- Under construction 
 
 **Server Rack Dell PowerEdge R720**
 - 2 * Intel(R) Xeon(R) E5-2609 4-Core 2.40 GHz
