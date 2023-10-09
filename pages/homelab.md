@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Equipments
-permalink: /equipments/
+title: HomeLab
+permalink: /homelab/
 weight: 3
 ---
 
-# **Equipments**
+# **HomeLab**
 Here are all the materials I use to work.
 
 ## **Servers**
