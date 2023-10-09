@@ -10,7 +10,6 @@ My Homelab is more than just a technological hobby. It's my digital playground, 
 
 
 # Hardware
-Here are all the materials I use to work.
 ## Servers
 **Server Rack Dell PowerEdge R730**
 - Under construction 
