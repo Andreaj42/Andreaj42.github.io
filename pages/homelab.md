@@ -45,5 +45,5 @@ This technology allows me to :
 
 I've set up and maintained a collection of self-hosted tools on my Homelab. These tools have not only empowered me to streamline various tasks but have also fostered collaborative work and resource optimization.
 
-- **JupyterHub**: I've deployed a JupyterHub on my Homelab, which allowed me to offload computational tasks from my personal computer during coursework. It also facilitated collaboration with colleagues.
+- **JupyterHub**: I've deployed a <a href="https://jupyter.org/hub">JupyterHub</a> on my Homelab, which allowed me to offload computational tasks from my personal computer during coursework. It also facilitated collaboration with colleagues.
 - **Pi-hole**: It serves as a network-wide ad blocker, effectively blocking unwanted ads across all devices on my home network. Furthermore, it offers local DNS resolution management, enhancing security and privacy while maintaining a fast and efficient DNS resolution process.
