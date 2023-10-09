@@ -1,6 +1,6 @@
 ---
 name: Home Automation
-tools: [HomeAssistant]
+tools: [Home Assistant]
 image: /images/projects/HomeAutomation/HomeAssistant.png
 description: My home automation installation powered by Home Assistant
 release-date: 2023-04-01
