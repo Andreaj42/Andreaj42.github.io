@@ -11,7 +11,7 @@ My Homelab is more than just a technological hobby. It's my digital playground, 
 
 # Hardware
 Here are all the materials I use to work.
-## **Servers**
+## Servers
 **Server Rack Dell PowerEdge R730**
 - Under construction 
 
@@ -25,7 +25,7 @@ Here are all the materials I use to work.
 - 48 10/100/1000BASE-T ports
 - 4 ports SFP
 
-## **3D Printers**
+## 3D Printers
 **Creality Ender 3 Pro**
 - Remote-controlled by a Rasberry Pi 4 Model B
 - Operating System : OctoPi 1.0.0
