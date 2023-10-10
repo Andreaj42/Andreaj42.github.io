@@ -9,6 +9,8 @@ weight: 4
 
 
 # L'Usine logicielle
+![Logo de L’Usine Logicielle](/images/projects/SoftwareFactory/SoftwareFactory.png)
+
 **L'Usine Logicielle : Together, let's write free lines for an open world!**
 
 Founded in July 2023, "L'Usine Logicielle" is a passionate association dedicated to promote the world of open-source software development. With a team of four members, we are on a mission to promote and advance the cause of open-source software through collaborative software development projects and knowledge sharing.
@@ -21,4 +23,7 @@ As of now, "L'Usine Logicielle" has embarked on a variety of exciting projects. 
 
 At "L'Usine Logicielle", we believe that open-source software is not just about code; it's about collaboration, innovation, and a commitment to a world where knowledge and technology are freely accessible to all.
 
+
+<p class="text-center">
 {% include elements/button.html link="https://lusine-logicielle.fr" text="Learn More" %}
+</p>
