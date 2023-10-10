@@ -18,7 +18,6 @@ My Homelab is more than just a technological hobby. It's my digital playground, 
 - 2 * Intel(R) Xeon(R) E5-2609 4-Core 2.40 GHz
 - 72 Go RAM DDR3
 - 6 To SSD
-- Operating System : Proxmox VE 8.0
 
 **Switch Dell PowerConnect 2848**
 - 48 10/100/1000BASE-T ports
@@ -27,9 +26,13 @@ My Homelab is more than just a technological hobby. It's my digital playground, 
 ## 3D Printers
 **Creality Ender 3 Pro**
 - Remote-controlled by a Rasberry Pi 4 Model B
-- Operating System : OctoPi 1.0.0
 
 # Software
+
+## Operating Systems
+- **Proxmox VE 8.0**: A free virtualization solution based on the Linux hypervisor KVM, it also offers a container solution with LXC.
+- **OctoPi 1.0.0**: A Debian image for the Raspberry Pi that already includes OctoPrint and MJPG-Streamer for live viewing of prints and timelapse video creation.
+
 ## Self-Hosted Tools
 
 I've set up and maintained a collection of self-hosted tools on my Homelab. These tools have not only empowered me to streamline various tasks but have also fostered collaborative work and resource optimization.
