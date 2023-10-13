@@ -4,7 +4,7 @@ tools: [Home Assistant]
 image: /images/projects/HomeAutomation/HomeAssistant.png
 description: My home automation installation powered by Home Assistant
 release-date: 2023-04-01
-weight: 2
+weight: 1
 ---
 
 # Home automation
