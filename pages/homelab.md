@@ -39,6 +39,7 @@ I've set up and maintained a collection of self-hosted tools on my Homelab. Thes
 
 - **JupyterHub**: I've deployed a <a href="https://jupyter.org/hub">JupyterHub</a> on my Homelab, which allowed me to offload computational tasks from my personal computer during coursework. It also facilitated collaboration with colleagues.
 - **Pi-hole**: It serves as a network-wide ad blocker, effectively blocking unwanted ads across all devices on my home network. Furthermore, it offers local DNS resolution management, enhancing security and privacy while maintaining a fast and efficient DNS resolution process.
+- **GitHub Runners**: These runners empower my continuous integration and deployment (CI/CD) workflows, allowing me to build, test, and deploy my projects with speed and flexibility. By running these runners on my Homelab, I have greater control over my development pipeline, ensuring resource optimization for my projects.
 
 ## Other Tools
 - **Tailscale**: For seamless and secure remote access to my home network, I use on <a href="https://tailscale.com/">Tailscale</a>, a versatile and user-friendly VPN solution. By incorporating Tailscale into my network infrastructure, I've gained the flexibility and reliability needed to stay connected and in control, regardless of my physical location.
