@@ -4,7 +4,7 @@ tools: [Python, Tkinter]
 image: /images/projects/TicTacToe/TicTacToe.png
 description: Tic-Tac-Toe game made with Python in three hours
 release-date: 2022-10-01
-weight: 3
+weight: 9
 ---
 
 # Tic-Tac-Toe
