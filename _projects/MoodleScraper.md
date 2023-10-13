@@ -3,6 +3,7 @@ name: Moodle Grades Scraper
 tools: [Python, Docker, MariaDB]
 image: /images/projects/Moodle/Moodle.png
 description: Alerting system to track new grades on Moodle
+pinned: false
 release-date: 2023-01-01
 weight: 3
 ---

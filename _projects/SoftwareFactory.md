@@ -3,6 +3,7 @@ name: L'Usine Logicielle
 tools: [GitHub]
 image: /images/projects/SoftwareFactory/SoftwareFactory.png
 description: Creation of an association dedicated to promoting and supporting Open Source Software Development
+pinned: true
 release-date: 2023-07-01
 weight: 4
 ---

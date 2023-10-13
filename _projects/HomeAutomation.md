@@ -3,6 +3,7 @@ name: Home Automation
 tools: [Home Assistant]
 image: /images/projects/HomeAutomation/HomeAssistant.png
 description: My home automation installation powered by Home Assistant
+pinned: true
 release-date: 2023-04-01
 weight: 1
 ---
