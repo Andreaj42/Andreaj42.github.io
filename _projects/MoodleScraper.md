@@ -4,7 +4,7 @@ tools: [Python, Docker, MariaDB]
 image: /images/projects/Moodle/Moodle.png
 description: Alerting system to track new grades on Moodle
 release-date: 2023-01-01
-weight: 1
+weight: 3
 ---
 
 # Moodle Grades Scraper
