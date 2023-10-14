@@ -6,7 +6,7 @@ weight: 3
 ---
 
 # **HomeLab**
-My Homelab is more than just a technological hobby. It's my digital playground, where I explore, learn and create. In this section, I share my hardware and the projects I've completed, demonstrating my devotion to technological innovation and lifelong learning.
+My Homelab is more than just a technological hobby. It's my digital playground, where I explore, learn and create. In this section, I share the hardware and software I use, demonstrating my devotion to technological innovation and learning.
 
 
 # Hardware
