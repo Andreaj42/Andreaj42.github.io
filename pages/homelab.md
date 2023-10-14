@@ -21,7 +21,7 @@ My Homelab is more than just a technological hobby. It's my digital playground, 
 
 **Switch Dell PowerConnect 2848**
 - 48 10/100/1000BASE-T ports
-- 4 ports SFP
+- 4 SFP ports
 
 ## 3D Printers
 **Creality Ender 3 Pro**
@@ -38,7 +38,7 @@ My Homelab is more than just a technological hobby. It's my digital playground, 
 I've set up and maintained a collection of self-hosted tools on my Homelab. These tools have not only empowered me to streamline various tasks but have also fostered collaborative work and resource optimization.
 
 - **JupyterHub**: I've deployed a <a href="https://jupyter.org/hub">JupyterHub</a> on my Homelab, which allowed me to offload computational tasks from my personal computer during coursework. It also facilitated collaboration with colleagues.
-- **Pi-hole**: It serves as a network-wide ad blocker, effectively blocking unwanted ads across all devices on my home network. Furthermore, it offers local DNS resolution management, enhancing security and privacy while maintaining a fast and efficient DNS resolution process.
+- **Pi-hole**: It serves as a network-wide ad blocker, effectively blocking unwanted ads across all devices on my home network. Furthermore, <a href="https://pi-hole.net/">Pi-hole</a> offers local DNS resolution management, enhancing security and privacy while maintaining a fast and efficient DNS resolution process.
 - **GitHub Runners**: These runners empower my continuous integration and deployment (CI/CD) workflows, allowing me to build, test, and deploy my projects with speed and flexibility. By running these runners on my Homelab, I have greater control over my development pipeline, ensuring resource optimization for my projects.
 
 ## Other Tools
