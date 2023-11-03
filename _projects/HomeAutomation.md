@@ -16,7 +16,8 @@ This technology allows me to :
 - Monitor soil moisture of a <a href="https://andrea-joly.fr/projects/indoorgarden">indoor garden</a> 
 - Control dishwasher
 - Control connected TVs
-- ... 
+- Secure my system with Fail2ban
+- ...
 
 <p class="text-center">
 {% include elements/button.html target="_blank" link="https://www.home-assistant.io/" text="Learn More" %}
