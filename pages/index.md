@@ -28,10 +28,14 @@ permalink: /
 -->
 
 <div class="row">
-{% include about/intro.html %}
+{% include index/intro.html %}
 </div>
 
 
 <div class="row">
-{% include about/timeline.html %}
+{% include index/timeline.html %}
+</div>
+
+<div class="row">
+{% include index/carousel.html %}
 </div>

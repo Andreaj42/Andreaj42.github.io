@@ -1,0 +1,16 @@
+- title: Hackathon - Loire Department
+  organization: Loire Department
+  date: December 2022
+  theme: Making seniors' lives better.
+  image: /images/hackathon/loiredepartement.jpg
+  active: true
+  description: >
+    In a team of 4 people, we designed ELISA, a connected tablet with an intuitive design, containing essential applications for the elderly.
+
+- title: Hackathon - Sick
+  organization: Sick
+  date: October 2023
+  theme: Technological innovation
+  image: /images/hackathon/sick.jpg
+  description: >
+    In a team of 3 people, we created MIRA, a Monitoring Interface and Resource Assistant. A self-hosted chatbot that can be parameterized with data from a production line.
