@@ -32,10 +32,10 @@
 </style>
 
 <div class="col mt-4">
-    <h4>Academic journey</h4> 
+    <h3>Academic journey</h3> 
     <ul class="timeline">
       {% for item in site.data.timeline %}
-      <li class="timeline-item mb-5">
+      <li class="timeline-item mb-4">
           <h7 style="font-weight: bold;">{{ item.title }}</h7>
           <h7 style="font-style:italic;" class="float-right">{{ item.from }} — {{ item.to }}</h7>
           <p>{{ item.description }}</p>
@@ -43,4 +43,4 @@
       </li>
       {% endfor %}
     </ul>
-  </div>
+</div>
