@@ -1,6 +1,6 @@
 ---
 name: Smart Plant Care
-tools: [C++, ESP32, InfluxDB, Grafana, HomeAssistant]
+tools: [C++, ESP32, MQTT]
 image: /images/projects/SmartPlantCare/SmartPlantCare.png
 description: Creation of a homemade connected autonomous system for plant care
 pinned: false 
