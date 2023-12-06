@@ -13,7 +13,7 @@ weight: 1
 This technology allows me to :
 - Monitor solar panel production
 - Monitor vital environmental metrics (temperature and relative humidity)
-- Monitor soil moisture of a <a href="https://andrea-joly.fr/projects/indoorgarden">indoor garden</a> 
+- Monitor soil moisture of a <a href="https://andrea-joly.fr/projects/smartplantcare">indoor garden</a> 
 - Control dishwasher
 - Control connected TVs
 - Secure my system with Fail2ban
