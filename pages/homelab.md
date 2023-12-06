@@ -12,7 +12,9 @@ My Homelab is more than just a technological hobby. It's my digital playground, 
 # Hardware
 ## Servers
 **Server Rack Dell PowerEdge R730**
-- Under construction 
+- 2 * Intel Xeon E5-2650L V4 14-Core 1.70 GHz 
+- 64 Go RAM DDR4
+- M.2 NVMe SSD 250 Go
 
 **Server Rack Dell PowerEdge R720**
 - 2 * Intel(R) Xeon(R) E5-2609 4-Core 2.40 GHz
