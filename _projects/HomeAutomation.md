@@ -40,5 +40,5 @@ Ensuring the security of my home automation system is a top priority:
 
 
 <p class="text-center">
-{% include elements/button.html target="_blank" link="https://www.home-assistant.io/" text="Learn More about Home Assistant" %}
+{% include elements/button.html target="_blank" link="https://www.home-assistant.io/" text="Learn More" %}
 </p>
