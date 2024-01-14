@@ -20,7 +20,7 @@ Monitor and analyze various aspects of my home environment using Home Assistant 
 - **Environmental Metrics:** Track vital stats like temperature and relative humidity.
 - **Smart Indoor Garden:** Check soil moisture levels for optimal care of my [indoor garden](https://andrea-joly.fr/projects/smartplantcare).
 - **Network Metrics:** Keep tabs on network performance.
-- **Homelab Monitoring:** Monitor homelab equipment using SNMP and IPMI.
+- **Homelab Monitoring:** Monitor homelab equipment using SNMP, IPMI and connected plug.
 
 ## Control
 
