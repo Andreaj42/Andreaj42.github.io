@@ -10,7 +10,7 @@ weight: 10
 
 # Magnetic therapy device
 
-For my HND internship, I developed a prototype of a magnetotherapy device for the R&D department of Auris.
+For my HND internship, I developed a prototype of a magnetotherapy device for the R&D department of <a href="https://www.aurismagnetic.com/fr/" target="_blank"> Auris </a>.
 
 The project had three main focuses:
 
