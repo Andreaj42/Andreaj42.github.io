@@ -43,6 +43,7 @@ I've set up and maintained a collection of self-hosted tools on my Homelab. Thes
 - **Pi-hole**: It serves as a network-wide ad blocker, effectively blocking unwanted ads across all devices on my home network. Furthermore, <a href="https://pi-hole.net/">Pi-hole</a> offers local DNS resolution management, enhancing security and privacy while maintaining a fast and efficient DNS resolution process.
 - **GitHub Runners**: These runners empower my continuous integration and deployment (CI/CD) workflows, allowing me to build, test, and deploy my projects with speed and flexibility. By running these runners on my Homelab, I have greater control over my development pipeline, ensuring resource optimization for my projects.
 - **SonarQube**: A static code analysis tool that helps me maintain code quality by identifying code smells, bugs, and security vulnerabilities. By hosting <a href="https://www.sonarsource.com/products/sonarqube/"> SonarQube </a> on my Homelab, I can continuously monitor and improve the quality of my software projects, ensuring they meet the highest standards.
+- **Uptime Kuma**: A monitoring tool that helps me track the availability and performance of websites and services. By hosting <a href="https://uptime.kuma.pet/"> Uptime Kuma </a> on my Homelab, I can receive alerts and notifications in case of downtime.
 
 
 ## Other Tools
