@@ -22,9 +22,9 @@ nav_exclude:
 author:
   name              : Andréa Joly
   image             : images/identity.png
-  email             : administrateur@andrea-joly.fr
+  email             : andrea@andrea-joly.fr
   github            : Andreaj42
-  instagram         : andrea42130
+# instagram         : your_username
   linkedin          : andréa-joly
 # gitlab            : your_username
 # medium            : your_username
