@@ -8,7 +8,6 @@ weight: 3
 # **HomeLab**
 My Homelab is more than just a technological hobby. It's my digital playground, where I explore, learn and create. In this section, I share the hardware and software I use, demonstrating my devotion to technological innovation and learning.
 
-
 # Hardware
 ## Servers
 **Server Rack Dell PowerEdge R730**
@@ -21,6 +20,7 @@ My Homelab is more than just a technological hobby. It's my digital playground, 
 - 72 Go RAM DDR3
 - 6 To SSD
 
+## Switch
 **Switch Dell PowerConnect 2848**
 - 48 10/100/1000BASE-T ports
 - 4 SFP ports
@@ -48,3 +48,4 @@ I've set up and maintained a collection of self-hosted tools on my Homelab. Thes
 
 ## Other Tools
 - **Tailscale**: For seamless and secure remote access to my home network, I use on <a href="https://tailscale.com/">Tailscale</a>, a versatile and user-friendly VPN solution. By incorporating Tailscale into my network infrastructure, I've gained the flexibility and reliability needed to stay connected and in control, regardless of my physical location.
+<!-- Cloudflare -->
