@@ -1,0 +1,31 @@
+- title: PhD in Signal Processing and Artificial Intelligence, Inria
+  from: 2024
+  to: Present
+  description: Research project at <a href="https://inria.fr/fr" target="_blank"> Inria </a>, focusing on spectrum sensing and transmitter identification using deep learning techniques. 
+               My work involves developing advanced datasets and deep learning models to detect, classify, and identify radio signals in complex environments.
+
+- title: Engineering student, Télécom Saint-Étienne
+  from: 2021
+  to: 2024
+  description: A 3-year engineering course specialising in data at <a href="https://www.telecom-st-etienne.fr" target="_blank"> 
+               Télécom Saint-Étienne </a> engineering school, which gives me the opportunity to 
+               develop advanced technical skills in this domain. This apprenticeship takes place in a 
+               sandwich course, with work experience at Michelin.
+  experience: 3-year apprenticeship at <a href="https://www.michelin.fr/" target="_blank"> Michelin </a> alongside my engineering studies. 
+              My primary mission was to support a local team in the digitalization of a Michelin plant. I handled data science and project management tasks.
+
+- title: Citise, Télécom Saint-Étienne
+  from: 2019
+  to: 2021
+  description: A preparatory course provided by the <a href="https://www.telecom-st-etienne.fr" target="_blank"> 
+               Télécom Saint-Étienne </a> engineering school. The courses are divided into two campuses, the theoretical 
+               parts are studied at Télécom Saint-Etienne while the more technical parts are given at the IUT Jean Monnet to obtain a HND GEII.
+  experience:  10-week internship at <a href="https://www.aurismagnetic.com" target="_blank"> Auris</a>, a company specialised in the sale of magnetic therapy devices. 
+               In the R&D department, I designed an embedded system to manage pulsed magnetic fields emitted by coils.
+  abbreviation: Citise = Initial Cycle in Information Technology in Saint-Etienne
+
+- title: Student, Lycée l'Astrée
+  from: 2016
+  to: 2019
+  description: Scientific Baccalaureate in Life and Earth Sciences with a specialization in Computer and Digital Sciences.
+               
