@@ -21,11 +21,11 @@ nav_exclude:
 ### Author Info ###
 author:
   name              : Andréa Joly
-  image             : images/identity.png
+  image             : images/identity.avif
   email             : andrea@andrea-joly.fr
   github            : Andreaj42
 # instagram         : your_username
-  linkedin          : andréa-joly
+  linkedin          : andrea-joly
 # gitlab            : your_username
   medium            : andrea-tar-gz
 
@@ -48,7 +48,4 @@ favicon: /assets/favicon.ico
 
 ### Exclude from processing ###
 exclude:
-  - README.md
-  - CONTRIBUTING.md
-  - LICENSE
   - "*.log"
