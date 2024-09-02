@@ -35,7 +35,7 @@
   <ul class="timeline">
     {% assign sorted_items = site.data.credits_timeline | sort: 'date' | reverse %}
     {% for item in sorted_items %}
-    <li class="timeline-item mb-5">
+    <li class="timeline-item mb-2">
         <h7 style="font-weight: bold;">{{ item.title }}</h7>
         <p>{{ item.description }}</p>
         <hr style="background-color: #d4d9df;">
