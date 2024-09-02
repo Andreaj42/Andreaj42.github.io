@@ -2,10 +2,10 @@
 layout: page
 title: Credits
 permalink: /credits/
-weight: 4
+weight: 2
 ---
 
-# **Aknowledgement**
+# Aknowledgement
 
 
 <div class="row">

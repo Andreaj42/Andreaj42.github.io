@@ -36,7 +36,6 @@
     .timeline-item .date {
         float: right;
         font-style: italic;
-        color: #666e78;
     }
 
     @media (max-width: 768px) {
@@ -50,7 +49,7 @@
 
 </style>
 
-<div class="col mt-4">
+<div class="col mt-4 py-2">
     <h3>Academic journey</h3> 
     <ul class="timeline">
       {% for item in site.data.academic_timeline %}
@@ -59,11 +58,11 @@
           <span class="date">{{ item.from }} — {{ item.to }}</span>
           <p>{{ item.description }}</p>
           {% if item.experience %}
-            <p class="font-underline"><strong>Internship:</strong> {{ item.experience }}</p>
+            <p><strong>Internship:</strong> {{ item.experience }}</p>
           {% endif %}
 
           {% if item.abbreviation %}
-            <p class="text-muted font-italic" >* {{ item.abbreviation }}</p>
+            <p class="font-italic" >* {{ item.abbreviation }}</p>
           {% endif %}
 
           <hr>

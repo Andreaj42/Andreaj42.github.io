@@ -2,13 +2,12 @@
 layout: page
 title: HomeLab
 permalink: /homelab/
-weight: 3
+weight: 1
 ---
 
-# **HomeLab**
-My Homelab is more than just a technological hobby. It's my digital playground, where I explore, learn and create. In this section, I share the hardware and software I use, demonstrating my devotion to technological innovation and learning.
+# HomeLab
+My Homelab is more than just a technological hobby. It's my digital playground, where I explore, learn and create.
 
-# Hardware
 ## Servers
 **Server Rack Dell PowerEdge R730**
 - 2 * Intel Xeon E5-2650L V4 14-Core 1.70 GHz 
@@ -27,8 +26,11 @@ My Homelab is more than just a technological hobby. It's my digital playground, 
 
 ## 3D Printers
 **Creality Ender 3 Pro**
-- Remote-controlled by a Rasberry Pi 4 Model B
+- Remote-controlled by a Rasberry Pi
 
+
+<!--
+# Hardware
 # Software
 
 ## Operating Systems
