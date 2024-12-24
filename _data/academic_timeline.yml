@@ -1,9 +1,8 @@
-- title: PhD in Signal Processing and Artificial Intelligence, Inria
+- title: Doctoral Research: Artificial Intelligence for Telecommunications, Inria
   from: 2024
   to: Present
-  description: Research project at <a href="https://inria.fr/fr" target="_blank">Inria</a>, focusing on spectrum sensing and transmitter identification using deep learning techniques. 
-               My work involves developing advanced datasets and deep learning models to detect, classify, and identify radio signals in complex environments.
-
+  description: Research project at <a href="https://inria.fr/fr" target="_blank">Inria</a>, focusing on the caracterization of radio signals in complex environments using deep learning methods.
+  
 - title: Engineering student, Télécom Saint-Étienne
   from: 2021
   to: 2024
