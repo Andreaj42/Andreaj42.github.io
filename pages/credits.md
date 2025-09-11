@@ -2,7 +2,7 @@
 layout: page
 title: Credits
 permalink: /credits/
-weight: 2
+weight: 4
 ---
 
 # Aknowledgement

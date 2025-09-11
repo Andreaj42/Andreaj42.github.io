@@ -2,7 +2,7 @@
 layout: page
 title: HomeLab
 permalink: /homelab/
-weight: 1
+weight: 3
 ---
 
 # HomeLab
@@ -24,12 +24,12 @@ My Homelab is more than just a technological hobby. It's my digital playground, 
 - 48 10/100/1000BASE-T ports
 - 4 SFP ports
 
+
+<!--
 ## 3D Printers
 **Creality Ender 3 Pro**
 - Remote-controlled by a Rasberry Pi
 
-
-<!--
 # Hardware
 # Software
 
