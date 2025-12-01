@@ -1,0 +1,76 @@
+name: Build site and deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v4
+
+      - name: Install LaTeX and pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-lang-english \
+            pandoc
+
+      - name: Build HTML versions of courses
+        run: |
+          mkdir -p cours
+          for f in cours/*.tex; do
+            echo "Converting $f"
+            base=$(basename "$f" .tex)
+            pandoc "$f" \
+              -s \
+              --mathjax \
+              -o "cours/${base}.html"
+          done
+
+      - name: Build PDF versions of courses
+        run: |
+          for f in cours/*.tex; do
+            echo "Compiling PDF for $f"
+            base=$(basename "$f" .tex)
+            pdflatex -output-directory=cours "$f"
+          done
+
+      - name: Build Jekyll site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
