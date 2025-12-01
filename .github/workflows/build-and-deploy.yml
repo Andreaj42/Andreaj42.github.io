@@ -35,22 +35,22 @@ jobs:
 
       - name: Build HTML versions of courses
         run: |
-          mkdir -p cours
-          for f in cours/*.tex; do
+          mkdir -p courses
+          for f in courses/*.tex; do
             echo "Converting $f"
             base=$(basename "$f" .tex)
             pandoc "$f" \
               -s \
               --mathjax \
-              -o "cours/${base}.html"
+              -o "courses/${base}.html"
           done
 
       - name: Build PDF versions of courses
         run: |
-          for f in cours/*.tex; do
+          for f in courses/*.tex; do
             echo "Compiling PDF for $f"
             base=$(basename "$f" .tex)
-            pdflatex -output-directory=cours "$f"
+            pdflatex -output-directory=courses "$f"
           done
 
       - name: Build Jekyll site
