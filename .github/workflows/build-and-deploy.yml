@@ -37,18 +37,16 @@ jobs:
         run: |
           mkdir -p courses
           for f in courses/*.tex; do
-            echo "Converting $f"
             base=$(basename "$f" .tex)
             pandoc "$f" \
               -s \
-              --mathjax \
+              --mathjax="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js" \
               -o "courses/${base}.html"
           done
 
-      - name: Build PDF versions of courses
+      - name: Build PDF courses
         run: |
           for f in courses/*.tex; do
-            echo "Compiling PDF for $f"
             base=$(basename "$f" .tex)
             pdflatex -output-directory=courses "$f"
           done
