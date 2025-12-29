@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Andréa Joly
 description         : >- 
-                      CV website of M. Andréa Joly, a data scientist apprentice
+                      Website of Andréa Joly, a PhD candidate in deep learning for wireless communications.
 baseurl             : ""
 repository          : Andreaj42/Andreaj42.github.io
 remote_theme        : YoussefRaafatNasry/portfolYOU
