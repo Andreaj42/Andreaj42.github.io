@@ -1,6 +1,14 @@
 <footer class="mt-auto py-3 text-center">
-    <strong> &copy; </strong> {{ site.time | date: '%Y' }} {{ site.author.name }} 
-    <br>
-    {% include social.html %}
+  <a href="https://nofreeviewnoreview.org/" target="_blank" rel="noopener">
+    <img
+      src="{{'/images/nofreeviewnoreview.svg'}}"
+      alt="Banner"
+      style="max-width: 200px; margin-bottom: 1rem"
+    />
+  </a>
 
+  <br />
+  <strong>&copy;</strong> {{ site.time | date: '%Y' }} {{ site.author.name }}
+  <br />
+  {% include social.html %}
 </footer>
