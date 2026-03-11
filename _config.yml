@@ -24,11 +24,12 @@ author:
   name              : Andréa Joly
   image             : images/identity.avif
   email             : andrea@andrea-joly.fr
+  orcid             : 0009-0000-3910-5035
   github            : Andreaj42
-# instagram         : your_username
   linkedin          : andrea-joly
 # gitlab            : your_username
 # medium            : andrea-tar-gz
+# instagram         : your_username
 
 ### Collections ###
 collections:

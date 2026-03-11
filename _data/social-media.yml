@@ -36,3 +36,9 @@ medium:
   icon  : fab fa-medium
   color : 00ab6c
   name : Medium
+
+orcid:
+  url   : https://orcid.org/
+  icon  : fab fa-orcid
+  color : a6ce39
+  name : ORCID
