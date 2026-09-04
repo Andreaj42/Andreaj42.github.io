@@ -6,23 +6,55 @@ weight: 3
 ---
 
 # HomeLab
-My Homelab is more than just a technological hobby. It's my digital playground, where I explore, learn and create.
+My HomeLab is a personal infrastructure environment where I experiment with virtualization, networking, system administration, and self-hosted services.
 
-## Servers
-**Server Rack Dell PowerEdge R730**
-- 2 * Intel Xeon E5-2650L V4 14-Core 1.70 GHz 
-- 64 Go RAM DDR4
-- M.2 NVMe SSD 250 Go
+## Architecture
+My HomeLab runs on a virtualized Proxmox infrastructure hosting several internal services and development workloads.
 
-**Server Rack Dell PowerEdge R720**
-- 2 * Intel(R) Xeon(R) E5-2609 4-Core 2.40 GHz
-- 72 Go RAM DDR3
-- 6 To SSD
+### Remote Access
+Remote administration is centralized through a dedicated bastion VM. The bastion is reachable through a private Tailscale network and acts as an SSH jump host for controlled access to internal workloads.
 
-## Switch
-**Switch Dell PowerConnect 2848**
-- 48 10/100/1000BASE-T ports
-- 4 SFP ports
+{% include homelab/homelab-architecture.html %}
+
+### Workload Distribution
+
+Services and workloads are distributed according to their role. The R730 hosts the primary virtualized workloads, while the R720 provides a separate backup and recovery target.
+
+{% include homelab/homelab-workloads.html %}
+
+## Infrastructure & Technologies
+
+My HomeLab serves as a practical environment for experimenting with virtualization, networking, system administration and self-hosted services.
+
+- **Virtualization:** Proxmox VE, virtual machines and containers
+- **Systems:** Debian, Linux administration
+- **Networking:** Tailscale, SSH, private networking
+- **Remote access:** Bastion host and SSH jump host
+- **Automation:** CI/CD runners and infrastructure automation
+- **Monitoring:** Service availability and infrastructure monitoring
+
+## Self-Hosted Services
+
+I use my HomeLab to deploy and maintain several services for development, experimentation and infrastructure management.
+
+- **<a href="https://github.com/actions/runner"> GitHub Actions Runners </a>** — Self-hosted CI/CD workloads
+- **<a href="https://www.sonarsource.com/products/sonarqube/"> SonarQube </a>** — Static analysis and code quality
+- **<a href="https://uptime.kuma.pet/"> Uptime Kuma </a>** — Service monitoring and availability
+
+## Hardware
+
+| Device | Role | CPU | Memory | Storage | Network |
+|---|---|---|---|---|---|
+| **Dell PowerEdge R730** | Compute / Virtualization | 2 × Xeon E5-2650L v4 (14 cores, 1.70 GHz) | 64 GB DDR4 | 6 TB SSD, 250 GB NVMe SSD | — |
+| **Dell PowerEdge R720** | Backup / Storage | 2 × Xeon E5-2609 (4 cores, 2.40 GHz) | 72 GB DDR3 | 2 TB SSD | — |
+| **Raspberry Pi 4 Model B** | Monitoring | Quad-core Cortex-A72 (ARMv8), 1.8 GHz | 4 GB | 32 GB | — |
+| **Dell PowerConnect 2848** | Network switch | — | — | — | 48 × GbE, 4 × SFP |
+
+
+
+## Acknowledgements
+
+Special thanks to **Lucas Perfeito** for his valuable help in building, configuring, and maintaining this HomeLab.
 
 
 <!--
@@ -30,7 +62,7 @@ My Homelab is more than just a technological hobby. It's my digital playground, 
 **Creality Ender 3 Pro**
 - Remote-controlled by a Rasberry Pi
 
-# Hardware
+
 # Software
 
 ## Operating Systems

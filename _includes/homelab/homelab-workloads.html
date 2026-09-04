@@ -1,0 +1,43 @@
+<style>
+  .homelab-workloads svg {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 auto;
+  }
+
+  .homelab-workloads .edgeLabel {
+    background: transparent !important;
+  }
+
+  .homelab-workloads .edgeLabel p {
+    background: #fff !important;
+    padding: 2px 5px !important;
+    border-radius: 3px;
+  }
+</style>
+
+<div class="homelab-workloads" style="
+    width: 650px;
+    max-width: 90%;
+    margin: 2rem auto;
+">
+  <div class="mermaid">
+flowchart TB
+
+    R730["<b>Dell PowerEdge R730</b><br/>Primary Compute"]
+    R720["<b>Dell PowerEdge R720</b><br/>Backup & Recovery"]
+    RPI["<b>Raspberry Pi 4</b><br/>Monitoring"]
+
+    R730 -->|"Backup"| R720
+
+    RPI -.-> R730
+    RPI -.-> R720
+
+    classDef server fill:#fafafa,stroke:#9ca3af,color:#374151,stroke-width:1px;
+    classDef monitor fill:#f5f5f5,stroke:#9ca3af,color:#374151,stroke-width:1px;
+
+    class R730,R720 server;
+    class RPI monitor;
+  </div>
+</div>

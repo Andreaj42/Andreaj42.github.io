@@ -1,0 +1,64 @@
+<style>
+  .homelab-architecture svg {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    max-width: none !important;
+    margin: 0 auto;
+  }
+
+  .homelab-architecture .edgeLabel {
+    background-color: transparent !important;
+  }
+
+  .homelab-architecture .edgeLabel p {
+    background-color: #ffffff !important;
+    padding: 2px 6px !important;
+    border-radius: 3px;
+  }
+</style>
+
+<div style="
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem auto;
+">
+    <div class="homelab-architecture" style="
+        width: 620px;
+        max-width: 90%;
+        margin: 0 auto;
+    ">
+        <div class="mermaid">
+flowchart TD
+
+    Remote["Remote Administration"]
+
+    subgraph Infra["Proxmox VE"]
+        direction TB
+
+        Bastion["Bastion VM"]
+
+        Services["Services"]
+        VMs["Virtual Machines"]
+        Workloads["Other Workloads"]
+
+        Bastion --> Services
+        Bastion --> VMs
+        Bastion --> Workloads
+    end
+
+    Remote -->|"Tailscale"| Bastion
+
+    classDef external fill:#ffffff,stroke:#9ca3af,color:#374151,stroke-width:1px;
+    classDef bastion fill:#f7f3ee,stroke:#8b735b,color:#332b25,stroke-width:1.5px;
+    classDef workload fill:#ffffff,stroke:#b4b8b5,color:#37413b,stroke-width:1px;
+
+    class Remote external;
+    class Bastion bastion;
+    class Services,VMs,Workloads workload;
+
+    style Infra fill:#fafafa,stroke:#d1d5db,stroke-width:1px,color:#6b7280;
+        </div>
+    </div>
+</div>
