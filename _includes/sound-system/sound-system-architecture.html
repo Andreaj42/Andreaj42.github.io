@@ -1,0 +1,73 @@
+<style>
+  .sound-system-architecture svg {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    max-width: none !important;
+    margin: 0 auto;
+  }
+
+  .sound-system-architecture .edgeLabel {
+    background-color: transparent !important;
+  }
+
+  .sound-system-architecture .edgeLabel p {
+    background-color: #ffffff !important;
+    padding: 2px 6px !important;
+    border-radius: 3px;
+  }
+</style>
+
+<div style="
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem auto;
+">
+    <div class="sound-system-architecture" style="
+        width: 720px;
+        max-width: 95%;
+        margin: 0 auto;
+    ">
+        <div class="mermaid">
+flowchart TD
+
+    Input["Audio Input"]
+    Crossover["Behringer DSP <br> DCX2496"]
+
+    Input --> Crossover
+
+    subgraph System["3-Way Sound System"]
+        direction TB
+
+        TopAmp["Ibiza AMP600"]
+        KickAmp["the t.amp E-1200"]
+        SubAmp["the t.amp E-1200"]
+
+        Tops["2 × Ibiza Disco 15B<br/>Tops"]
+        Kicks["2 × KTHSR-15<br/>Eminence KAPPA PRO-15A"]
+        Subs["2 × Schlag-115<br/>Eminence Delta-15LFC"]
+
+        TopAmp --> Tops
+        KickAmp --> Kicks
+        SubAmp --> Subs
+    end
+
+    Crossover -->|"High frequencies"| TopAmp
+    Crossover -->|"Mid-bass / Kick"| KickAmp
+    Crossover -->|"Low frequencies"| SubAmp
+
+    classDef source fill:#ffffff,stroke:#9ca3af,color:#374151,stroke-width:1px;
+    classDef processing fill:#f7f3ee,stroke:#8b735b,color:#332b25,stroke-width:1.5px;
+    classDef amplifier fill:#ffffff,stroke:#b4b8b5,color:#37413b,stroke-width:1px;
+    classDef speaker fill:#fafafa,stroke:#9ca3af,color:#374151,stroke-width:1px;
+
+    class Input source;
+    class Crossover processing;
+    class TopAmp,KickAmp,SubAmp amplifier;
+    class Tops,Kicks,Subs speaker;
+
+    style System fill:#fafafa,stroke:#d1d5db,stroke-width:1px,color:#6b7280;
+        </div>
+    </div>
+</div>
