@@ -33,29 +33,40 @@
 flowchart TD
 
     Input["Audio Input"]
-    Crossover["Behringer DSP <br> DCX2496"]
+    DSP["Behringer DSP </br> DCX2496"]
 
-    Input --> Crossover
+    Input -->|"XLR / RCA"| DSP
 
-    subgraph System["3-Way Sound System"]
+    DSP -->|"XLR"| TopAmp
+    DSP -->|"XLR"| KickAmp
+    DSP -->|"XLR"| SubAmp
+
+    subgraph HIGH["HIGH FREQUENCIES"]
         direction TB
 
-        TopAmp["Ibiza AMP600"]
-        KickAmp["the t.amp E-1200"]
-        SubAmp["the t.amp E-1200"]
+        TopAmp["<b>Ibiza AMP600</b><br/>2 × 480 W @ 4 Ω"]
+        Tops["<b>2 × Ibiza Disco 15B</b><br/>Tops"]
 
-        Tops["2 × Ibiza Disco 15B<br/>Tops"]
-        Kicks["2 × KTHSR-15<br/>Eminence KAPPA PRO-15A"]
-        Subs["2 × Schlag-115<br/>Eminence Delta-15LFC"]
-
-        TopAmp --> Tops
-        KickAmp --> Kicks
-        SubAmp --> Subs
+        TopAmp -->|"Speakon"| Tops
     end
 
-    Crossover -->|"High frequencies"| TopAmp
-    Crossover -->|"Mid-bass / Kick"| KickAmp
-    Crossover -->|"Low frequencies"| SubAmp
+    subgraph KICK["MID-BASS / KICK"]
+        direction TB
+
+        KickAmp["<b>the t.amp E-1200</b><br/>2 × 680 W @ 8 Ω"]
+        Kicks["<b>2 × KTHSR-15</b><br/>Eminence KAPPA PRO-15A"]
+
+        KickAmp -->|"Speakon"| Kicks
+    end
+
+    subgraph LOW["LOW FREQUENCIES"]
+        direction TB
+
+        SubAmp["<b>the t.amp E-1200</b><br/>2 × 990 W @ 4 Ω"]
+        Subs["<b>2 × Schlag-115</b><br/>Eminence Delta-15LFC"]
+
+        SubAmp -->|"Speakon"| Subs
+    end
 
     classDef source fill:#ffffff,stroke:#9ca3af,color:#374151,stroke-width:1px;
     classDef processing fill:#f7f3ee,stroke:#8b735b,color:#332b25,stroke-width:1.5px;
@@ -63,11 +74,13 @@ flowchart TD
     classDef speaker fill:#fafafa,stroke:#9ca3af,color:#374151,stroke-width:1px;
 
     class Input source;
-    class Crossover processing;
+    class DSP processing;
     class TopAmp,KickAmp,SubAmp amplifier;
     class Tops,Kicks,Subs speaker;
 
-    style System fill:#fafafa,stroke:#d1d5db,stroke-width:1px,color:#6b7280;
+    style HIGH fill:#fafafa,stroke:#d1d5db,stroke-width:1px,color:#6b7280;
+    style KICK fill:#fafafa,stroke:#d1d5db,stroke-width:1px,color:#6b7280;
+    style LOW fill:#fafafa,stroke:#d1d5db,stroke-width:1px,color:#6b7280;
         </div>
     </div>
 </div>
