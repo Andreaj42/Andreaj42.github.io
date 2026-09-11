@@ -1,4 +1,67 @@
 <style>
+  /* =========================================================
+     HOMELAB ARCHITECTURE
+     ========================================================= */
+
+  .homelab-architecture {
+    /* Light theme */
+    --ha-text: #374151;
+    --ha-muted-text: #6b7280;
+
+    --ha-node-bg: #ffffff;
+    --ha-workload-bg: #ffffff;
+
+    --ha-bastion-bg: #f7f3ee;
+    --ha-bastion-border: #8b735b;
+    --ha-bastion-text: #332b25;
+
+    --ha-border: #9ca3af;
+    --ha-workload-border: #b4b8b5;
+
+    --ha-group-bg: #fafafa;
+    --ha-group-border: #d1d5db;
+
+    --ha-line: #374151;
+
+    --ha-label-bg: rgba(255, 255, 255, 0.88);
+    --ha-label-text: #374151;
+  }
+
+
+  /* =========================================================
+     DARK THEME
+     ========================================================= */
+
+  [data-theme="dark"] .homelab-architecture,
+  .dark .homelab-architecture,
+  body.dark-mode .homelab-architecture {
+    --ha-text: #d1d5db;
+    --ha-muted-text: #9ca3af;
+
+    --ha-node-bg: #222629;
+    --ha-workload-bg: #222629;
+
+    --ha-bastion-bg: #302b27;
+    --ha-bastion-border: #9b8067;
+    --ha-bastion-text: #e7ddd3;
+
+    --ha-border: #616975;
+    --ha-workload-border: #68716c;
+
+    --ha-group-bg: #1d2023;
+    --ha-group-border: #444b53;
+
+    --ha-line: #aeb4bc;
+
+    --ha-label-bg: rgba(24, 27, 30, 0.88);
+    --ha-label-text: #d1d5db;
+  }
+
+
+  /* =========================================================
+     SVG
+     ========================================================= */
+
   .homelab-architecture svg {
     display: block;
     width: 100% !important;
@@ -7,16 +70,115 @@
     margin: 0 auto;
   }
 
-  .homelab-architecture .edgeLabel {
-    background-color: transparent !important;
+
+  /* =========================================================
+     REMOTE ADMINISTRATION
+     ========================================================= */
+
+  .homelab-architecture .external rect,
+  .homelab-architecture .external polygon,
+  .homelab-architecture .external path {
+    fill: var(--ha-node-bg) !important;
+    stroke: var(--ha-border) !important;
+    stroke-width: 1px !important;
   }
 
-  .homelab-architecture .edgeLabel p {
-    background-color: #ffffff !important;
-    padding: 2px 6px !important;
-    border-radius: 3px;
+  .homelab-architecture .external .nodeLabel {
+    color: var(--ha-text) !important;
+  }
+
+
+  /* =========================================================
+     BASTION
+     ========================================================= */
+
+  .homelab-architecture .bastion rect,
+  .homelab-architecture .bastion polygon,
+  .homelab-architecture .bastion path {
+    fill: var(--ha-bastion-bg) !important;
+    stroke: var(--ha-bastion-border) !important;
+    stroke-width: 1.5px !important;
+  }
+
+  .homelab-architecture .bastion .nodeLabel {
+    color: var(--ha-bastion-text) !important;
+  }
+
+
+  /* =========================================================
+     WORKLOADS
+     ========================================================= */
+
+  .homelab-architecture .workload rect,
+  .homelab-architecture .workload polygon,
+  .homelab-architecture .workload path {
+    fill: var(--ha-workload-bg) !important;
+    stroke: var(--ha-workload-border) !important;
+    stroke-width: 1px !important;
+  }
+
+  .homelab-architecture .workload .nodeLabel {
+    color: var(--ha-text) !important;
+  }
+
+
+  /* =========================================================
+     PROXMOX SUBGRAPH
+     ========================================================= */
+
+  .homelab-architecture .cluster rect {
+    fill: var(--ha-group-bg) !important;
+    stroke: var(--ha-group-border) !important;
+    stroke-width: 1px !important;
+  }
+
+  .homelab-architecture .cluster-label span,
+  .homelab-architecture .cluster-label p {
+    color: var(--ha-muted-text) !important;
+  }
+
+  .homelab-architecture .cluster-label text {
+    fill: var(--ha-muted-text) !important;
+  }
+
+
+  /* =========================================================
+     CONNECTIONS
+     ========================================================= */
+
+  .homelab-architecture .flowchart-link {
+    stroke: var(--ha-line) !important;
+  }
+
+  .homelab-architecture marker path {
+    fill: var(--ha-line) !important;
+    stroke: var(--ha-line) !important;
+  }
+
+
+  /* =========================================================
+     EDGE LABELS
+     ========================================================= */
+
+  .homelab-architecture .edgeLabel {
+    background: transparent !important;
+    color: var(--ha-label-text) !important;
+  }
+
+  .homelab-architecture .edgeLabel p,
+  .homelab-architecture .edgeLabel span,
+  .homelab-architecture .edgeLabel div {
+    background: var(--ha-label-bg) !important;
+    color: var(--ha-label-text) !important;
+    padding: 1px 5px !important;
+    border-radius: 3px !important;
+  }
+
+  .homelab-architecture .labelBkg {
+    fill: var(--ha-label-bg) !important;
   }
 </style>
+
 
 <div style="
     display: flex;
@@ -29,6 +191,7 @@
         max-width: 90%;
         margin: 0 auto;
     ">
+
         <div class="mermaid">
 flowchart TD
 
@@ -50,15 +213,11 @@ flowchart TD
 
     Remote -->|"Tailscale"| Bastion
 
-    classDef external fill:#ffffff,stroke:#9ca3af,color:#374151,stroke-width:1px;
-    classDef bastion fill:#f7f3ee,stroke:#8b735b,color:#332b25,stroke-width:1.5px;
-    classDef workload fill:#ffffff,stroke:#b4b8b5,color:#37413b,stroke-width:1px;
-
     class Remote external;
     class Bastion bastion;
     class Services,VMs,Workloads workload;
 
-    style Infra fill:#fafafa,stroke:#d1d5db,stroke-width:1px,color:#6b7280;
         </div>
+
     </div>
 </div>

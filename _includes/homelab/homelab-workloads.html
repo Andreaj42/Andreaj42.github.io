@@ -1,4 +1,37 @@
 <style>
+  /* =========================================================
+     HOMELAB WORKLOADS
+     ========================================================= */
+
+  .homelab-workloads {
+    /* Light theme */
+    --hl-text: #374151;
+    --hl-server-bg: #fafafa;
+    --hl-monitor-bg: #f5f5f5;
+    --hl-border: #9ca3af;
+    --hl-line: #374151;
+    --hl-label-bg: rgba(255, 255, 255, 0.88);
+    --hl-label-text: #374151;
+  }
+
+  /* Dark theme */
+  [data-theme="dark"] .homelab-workloads,
+  .dark .homelab-workloads,
+  body.dark-mode .homelab-workloads {
+    --hl-text: #d1d5db;
+    --hl-server-bg: #222629;
+    --hl-monitor-bg: #202427;
+    --hl-border: #626b75;
+    --hl-line: #aeb7c1;
+    --hl-label-bg: rgba(24, 27, 30, 0.88);
+    --hl-label-text: #d1d5db;
+  }
+
+
+  /* =========================================================
+     SVG
+     ========================================================= */
+
   .homelab-workloads svg {
     display: block;
     width: 100% !important;
@@ -6,16 +39,78 @@
     margin: 0 auto;
   }
 
-  .homelab-workloads .edgeLabel {
-    background: transparent !important;
+
+  /* =========================================================
+     SERVERS
+     ========================================================= */
+
+  .homelab-workloads .server rect,
+  .homelab-workloads .server polygon,
+  .homelab-workloads .server path {
+    fill: var(--hl-server-bg) !important;
+    stroke: var(--hl-border) !important;
+    stroke-width: 1px !important;
   }
 
-  .homelab-workloads .edgeLabel p {
-    background: #fff !important;
-    padding: 2px 5px !important;
-    border-radius: 3px;
+  .homelab-workloads .server .nodeLabel {
+    color: var(--hl-text) !important;
+  }
+
+
+  /* =========================================================
+     MONITORING
+     ========================================================= */
+
+  .homelab-workloads .monitor rect,
+  .homelab-workloads .monitor polygon,
+  .homelab-workloads .monitor path {
+    fill: var(--hl-monitor-bg) !important;
+    stroke: var(--hl-border) !important;
+    stroke-width: 1px !important;
+  }
+
+  .homelab-workloads .monitor .nodeLabel {
+    color: var(--hl-text) !important;
+  }
+
+
+  /* =========================================================
+     CONNECTIONS
+     ========================================================= */
+
+  .homelab-workloads .flowchart-link {
+    stroke: var(--hl-line) !important;
+  }
+
+  .homelab-workloads marker path {
+    fill: var(--hl-line) !important;
+    stroke: var(--hl-line) !important;
+  }
+
+
+  /* =========================================================
+     EDGE LABELS
+     ========================================================= */
+
+  .homelab-workloads .edgeLabel {
+    background: transparent !important;
+    color: var(--hl-label-text) !important;
+  }
+
+  .homelab-workloads .edgeLabel p,
+  .homelab-workloads .edgeLabel span,
+  .homelab-workloads .edgeLabel div {
+    background: var(--hl-label-bg) !important;
+    color: var(--hl-label-text) !important;
+    padding: 1px 5px !important;
+    border-radius: 3px !important;
+  }
+
+  .homelab-workloads .labelBkg {
+    fill: var(--hl-label-bg) !important;
   }
 </style>
+
 
 <div class="homelab-workloads" style="
     width: 650px;
@@ -34,10 +129,8 @@ flowchart TB
     RPI -.-> R730
     RPI -.-> R720
 
-    classDef server fill:#fafafa,stroke:#9ca3af,color:#374151,stroke-width:1px;
-    classDef monitor fill:#f5f5f5,stroke:#9ca3af,color:#374151,stroke-width:1px;
-
     class R730,R720 server;
     class RPI monitor;
+
   </div>
 </div>

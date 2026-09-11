@@ -1,39 +1,245 @@
 <style>
+  .sound-system-architecture {
+    /* ---------- Light ---------- */
+
+    --ss-text: #374151;
+    --ss-muted-text: #6b7280;
+
+    --ss-node-bg: #ffffff;
+    --ss-speaker-bg: #f8fafc;
+
+    --ss-processing-bg: #f7f3ee;
+    --ss-processing-border: #8b735b;
+    --ss-processing-text: #332b25;
+
+    --ss-border: #94a3b8;
+    --ss-amplifier-border: #a8b0b8;
+
+    --ss-group-bg: #f8fafc;
+    --ss-group-border: #cbd5e1;
+
+    --ss-line: #475569;
+
+    --ss-edge-label-bg: rgba(255, 255, 255, 0.92);
+    --ss-edge-label-text: #334155;
+  }
+
+
+  /* ---------- Dark ---------- */
+
+  [data-theme="dark"] .sound-system-architecture,
+  .dark .sound-system-architecture,
+  body.dark-mode .sound-system-architecture {
+
+    --ss-text: #d1d5db;
+    --ss-muted-text: #a1a1aa;
+
+    --ss-node-bg: #222629;
+    --ss-speaker-bg: #202427;
+
+    --ss-processing-bg: #302b27;
+    --ss-processing-border: #a18468;
+    --ss-processing-text: #eee7df;
+
+    --ss-border: #626b75;
+    --ss-amplifier-border: #68716c;
+
+    --ss-group-bg: #1d2124;
+    --ss-group-border: #48505a;
+
+    --ss-line: #aeb7c1;
+
+    --ss-edge-label-bg: rgba(24, 27, 30, 0.92);
+    --ss-edge-label-text: #d7dce2;
+  }
+
+
+  /* =========================================================
+     SVG
+     ========================================================= */
+
   .sound-system-architecture svg {
     display: block;
+
     width: 100% !important;
     height: auto !important;
+
     max-width: none !important;
+
     margin: 0 auto;
   }
 
-  .sound-system-architecture .edgeLabel {
-    background-color: transparent !important;
+
+  /* =========================================================
+     GLOBAL NODE TYPOGRAPHY
+     ========================================================= */
+
+  .sound-system-architecture .nodeLabel {
+    font-family: inherit !important;
+    line-height: 1.25 !important;
   }
 
-  .sound-system-architecture .edgeLabel p {
-    background-color: #ffffff !important;
-    padding: 2px 6px !important;
-    border-radius: 3px;
+
+  /* =========================================================
+     SOURCE
+     ========================================================= */
+
+  .sound-system-architecture .source rect {
+    fill: var(--ss-node-bg) !important;
+    stroke: var(--ss-border) !important;
+    stroke-width: 1px !important;
+  }
+
+  .sound-system-architecture .source .nodeLabel {
+    color: var(--ss-text) !important;
+  }
+
+
+  /* =========================================================
+     DSP
+     ========================================================= */
+
+  .sound-system-architecture .processing rect {
+    fill: var(--ss-processing-bg) !important;
+
+    stroke: var(--ss-processing-border) !important;
+    stroke-width: 1.5px !important;
+  }
+
+  .sound-system-architecture .processing .nodeLabel {
+    color: var(--ss-processing-text) !important;
+  }
+
+
+  /* =========================================================
+     AMPLIFIERS
+     ========================================================= */
+
+  .sound-system-architecture .amplifier rect {
+    fill: var(--ss-node-bg) !important;
+
+    stroke: var(--ss-amplifier-border) !important;
+    stroke-width: 1px !important;
+  }
+
+  .sound-system-architecture .amplifier .nodeLabel {
+    color: var(--ss-text) !important;
+  }
+
+
+  /* =========================================================
+     SPEAKERS
+     ========================================================= */
+
+  .sound-system-architecture .speaker rect {
+    fill: var(--ss-speaker-bg) !important;
+
+    stroke: var(--ss-border) !important;
+    stroke-width: 1px !important;
+  }
+
+  .sound-system-architecture .speaker .nodeLabel {
+    color: var(--ss-text) !important;
+  }
+
+
+  /* =========================================================
+     SUBGRAPHS
+     ========================================================= */
+
+  .sound-system-architecture .cluster rect {
+    fill: var(--ss-group-bg) !important;
+
+    stroke: var(--ss-group-border) !important;
+    stroke-width: 1px !important;
+  }
+
+  .sound-system-architecture .cluster-label span,
+  .sound-system-architecture .cluster-label p {
+    color: var(--ss-muted-text) !important;
+  }
+
+  .sound-system-architecture .cluster-label text {
+    fill: var(--ss-muted-text) !important;
+  }
+
+
+  /* =========================================================
+     LINKS
+     ========================================================= */
+
+  .sound-system-architecture .flowchart-link {
+    stroke: var(--ss-line) !important;
+    stroke-width: 1.2px !important;
+  }
+
+  .sound-system-architecture marker path {
+    fill: var(--ss-line) !important;
+    stroke: var(--ss-line) !important;
+  }
+
+
+  /* =========================================================
+     EDGE LABELS
+     ========================================================= */
+
+  .sound-system-architecture .edgeLabel {
+    background: transparent !important;
+
+    font-family: inherit !important;
+    font-size: 0.86em !important;
+    font-weight: 500 !important;
+  }
+
+  .sound-system-architecture .edgeLabel p,
+  .sound-system-architecture .edgeLabel span,
+  .sound-system-architecture .edgeLabel div {
+
+    background: var(--ss-edge-label-bg) !important;
+
+    color: var(--ss-edge-label-text) !important;
+
+    padding: 0 4px !important;
+
+    border-radius: 3px !important;
+
+    line-height: 1.15 !important;
+  }
+
+  .sound-system-architecture .labelBkg {
+    fill: var(--ss-edge-label-bg) !important;
+    stroke: none !important;
+  }
+
+  .sound-system-architecture .edgeLabel rect {
+    fill: var(--ss-edge-label-bg) !important;
+    stroke: none !important;
   }
 </style>
 
+
 <div style="
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem auto;
 ">
-    <div class="sound-system-architecture" style="
-        width: 720px;
-        max-width: 95%;
-        margin: 0 auto;
-    ">
-        <div class="mermaid">
+
+  <div
+    class="sound-system-architecture"
+    style="
+      width: 720px;
+      max-width: 95%;
+      margin: 0 auto;
+    "
+  >
+
+    <div class="mermaid">
+
 flowchart TD
 
     Input["Audio Input"]
-    DSP["Behringer DSP </br> DCX2496"]
+    DSP["Behringer DSP<br/>DCX2496"]
 
     Input -->|"XLR / RCA"| DSP
 
@@ -41,46 +247,54 @@ flowchart TD
     DSP -->|"XLR"| KickAmp
     DSP -->|"XLR"| SubAmp
 
+
     subgraph HIGH["HIGH FREQUENCIES"]
+
         direction TB
 
         TopAmp["<b>Ibiza AMP600</b><br/>2 × 480 W @ 4 Ω"]
+
         Tops["<b>2 × Ibiza Disco 15B</b><br/>Tops"]
 
         TopAmp -->|"Speakon"| Tops
+
     end
 
+
     subgraph KICK["MID-BASS / KICK"]
+
         direction TB
 
         KickAmp["<b>the t.amp E-1200</b><br/>2 × 680 W @ 8 Ω"]
+
         Kicks["<b>2 × KTHSR-15</b><br/>Eminence KAPPA PRO-15A"]
 
         KickAmp -->|"Speakon"| Kicks
+
     end
 
+
     subgraph LOW["LOW FREQUENCIES"]
+
         direction TB
 
         SubAmp["<b>the t.amp E-1200</b><br/>2 × 990 W @ 4 Ω"]
+
         Subs["<b>2 × Schlag-115</b><br/>Eminence Delta-15LFC"]
 
         SubAmp -->|"Speakon"| Subs
+
     end
 
-    classDef source fill:#ffffff,stroke:#9ca3af,color:#374151,stroke-width:1px;
-    classDef processing fill:#f7f3ee,stroke:#8b735b,color:#332b25,stroke-width:1.5px;
-    classDef amplifier fill:#ffffff,stroke:#b4b8b5,color:#37413b,stroke-width:1px;
-    classDef speaker fill:#fafafa,stroke:#9ca3af,color:#374151,stroke-width:1px;
 
-    class Input source;
-    class DSP processing;
-    class TopAmp,KickAmp,SubAmp amplifier;
-    class Tops,Kicks,Subs speaker;
+    class Input source
+    class DSP processing
 
-    style HIGH fill:#fafafa,stroke:#d1d5db,stroke-width:1px,color:#6b7280;
-    style KICK fill:#fafafa,stroke:#d1d5db,stroke-width:1px,color:#6b7280;
-    style LOW fill:#fafafa,stroke:#d1d5db,stroke-width:1px,color:#6b7280;
-        </div>
+    class TopAmp,KickAmp,SubAmp amplifier
+    class Tops,Kicks,Subs speaker
+
     </div>
+
+  </div>
+
 </div>
