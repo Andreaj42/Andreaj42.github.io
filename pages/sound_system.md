@@ -107,7 +107,7 @@ For techno-oriented playback, the target is not necessarily a perfectly flat res
 | Section          | Cabinet                                                                         | Driver                            | Amplifier        |
 | ---------------- | ------------------------------------------------------------------------------- | --------------------------------- | ---------------- |
 | **Top ×2**       | Ibiza Disco 15B                                                                 | Integrated                        | Ibiza AMP600     |
-| **Kick ×2**      | [HSR Sonorisation KTHSR-15](https://hsrsonorisation.fr/downloads/kthsr-15/)     | Eminence KAPPA PRO-15A — 15", 8 Ω | the t.amp E-1200 |
+| **Kick ×2**      | [HSR Sonorisation KTHSR-15](https://hsrsonorisation.fr/downloads/kthsr-15/)     | Eminence KAPPA PRO-15A, 15", 8 Ω | the t.amp E-1200 |
 | **Subwoofer ×2** | [HSR Sonorisation Schlag-115](https://hsrsonorisation.fr/downloads/schlag-115/) | Eminence Delta-15LFC, 15", 4 Ω    | the t.amp E-1200 |
 
 ## Design
