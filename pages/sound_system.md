@@ -2,7 +2,7 @@
 layout: page
 title: Sound System
 permalink: /sound_system/
-weight: 3
+weight: 4
 ---
 
 # Sound System
