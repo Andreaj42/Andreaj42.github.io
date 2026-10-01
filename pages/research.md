@@ -25,7 +25,7 @@ To this end, I design realistic datasets using the [CorteXlab](https://cortexlab
 ### Supervision
 
 - **Ana Luisa Girio Berlingieri** (Apr.–Aug. 2026) — Research Intern, UTFPR, Brazil  
-  *Automatic Modulation Classification using State-Space Models (Mamba)* — co-supervised with Leonardo Cardoso
+  *Automatic Modulation Classification using State-Space Models (Mamba)* — co-supervised with Leonardo S. Cardoso
 
 ### Scientific Service
 - Reviewer for [IEEE WCNC 2026](https://wcnc2026.ieee-wcnc.org) (via EDAS) 
