@@ -1,25 +1,19 @@
 - title: "Ph.D. in Artificial Intelligence for Telecommunications, Inria"
   from: 2024
   to: Present
-  description: Research project at <a href="https://inria.fr/fr" target="_blank">Inria</a>, focusing on the caracterization of radio signals in complex environments using deep learning methods.
+  description: Doctoral research at <a href="https://inria.fr/fr" target="_blank">Inria</a>, focusing on the characterization of radio signals in complex environments using deep learning and signal processing methods.
   
-- title: "MSc/Engineering student in Data Science, Télécom Saint-Étienne"
+- title: "MSc/Engineering Degree in Data Science, Télécom Saint-Étienne"
   from: 2021
   to: 2024
-  description: Completed a 3-year engineering program specializing in data science at <a href="https://www.telecom-st-etienne.fr" target="_blank"> Télécom Saint-Étienne </a> 
-               engineering school, which gives me the opportunity to develop advanced technical skills in this domain. This apprenticeship takes place in a 
-               sandwich course, with work experience at Michelin.
-  experience: 3-year apprenticeship at <a href="https://www.michelin.fr/" target="_blank"> Michelin </a> alongside my engineering studies. 
-              My primary mission was to support a local team in the digital transformation of a Michelin plant, focusing on data science and project management tasks.
+  description: Three-year engineering program at <a href="https://www.telecom-st-etienne.fr" target="_blank"> Télécom Saint-Étienne </a> specializing in data science, machine learning, and software engineering. The program combined academic coursework with professional experience through a work-study curriculum.
+  experience: Three-year apprenticeship at <a href="https://www.michelin.fr/" target="_blank"> Michelin </a> alongside my engineering studies. My primary mission was to support a local team in the digital transformation of a Michelin plant, with a focus on data science and project management tasks.
 
 - title: "Preparatory Cycle in Electrical Engineering, Télécom Saint-Étienne"
   from: 2019
   to: 2021
-  description: An integrated preparatory cycle provided by the <a href="https://www.telecom-st-etienne.fr" target="_blank"> 
-               Télécom Saint-Étienne </a> engineering school. The program focused on fundamental scientific principles such as mathematics and optics, followed by technical foundations
-               such as programming and embedded systems. It culminated in an HND in Electrical Engineering and Industrial Computing (GEII).
-  experience:  10-week internship at <a href="https://www.aurismagnetic.com" target="_blank"> Auris</a>, a company specialised in the sale of magnetic therapy devices. 
-               In the R&D department, I designed an embedded system to manage pulsed magnetic fields emitted by coils.
+  description: An integrated preparatory cycle provided by the <a href="https://www.telecom-st-etienne.fr" target="_blank"> Télécom Saint-Étienne </a> engineering school. The program focused on fundamental scientific principles such as mathematics and optics, followed by technical foundations such as programming and embedded systems. It culminated in an HND in Electrical Engineering and Industrial Computing (GEII).
+  experience:  10-week internship at <a href="https://www.aurismagnetic.com" target="_blank"> Auris</a>, a company specialised in the sale of magnetic therapy devices. In the R&D department, I designed an embedded system to manage pulsed magnetic fields emitted by coils.
 
 - title: "High School Diploma, Lycée l'Astrée"
   from: 2016
