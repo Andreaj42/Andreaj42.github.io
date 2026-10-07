@@ -9,10 +9,15 @@ weight: 3
 My HomeLab is a personal infrastructure environment where I experiment with virtualization, networking, system administration, and self-hosted services.
 
 ## Architecture
-My HomeLab runs on a virtualized Proxmox infrastructure hosting several internal services and development workloads.
+My HomeLab runs on a virtualized Proxmox infrastructure hosting internal services, research environments, and infrastructure management workloads.
+The architecture separates public services from a private management plane. Remote administration, internal DNS resolution, and access to sensitive services are provided through Tailscale without exposing the internal network directly to the Internet.
 
-### Remote Access
-Remote administration is centralized through a dedicated bastion VM. The bastion is reachable through a private Tailscale network and acts as an SSH jump host for controlled access to internal workloads.
+
+### Private Network & Remote Administration
+A dedicated bastion VM acts as the entry point to the private infrastructure. It is connected to the Tailscale network and provides both SSH jump-host access and subnet routing to the internal LAN.
+
+Internal services can therefore be reached directly from authorized Tailscale devices while remaining unreachable from the public Internet.
+
 
 {% include homelab/homelab-architecture.html %}
 
@@ -24,14 +29,17 @@ Services and workloads are distributed according to their role. The R730 hosts t
 
 ## Infrastructure & Technologies
 
-My HomeLab serves as a practical environment for experimenting with virtualization, networking, system administration and self-hosted services.
+My HomeLab serves as a practical environment for experimenting with virtualization, networking, security engineering, system administration, and self-hosted services.
 
 - **Virtualization:** Proxmox VE, virtual machines and containers
 - **Systems:** Debian, Linux administration
-- **Networking:** Tailscale, SSH, private networking
-- **Remote access:** Bastion host and SSH jump host
+- **Networking:** Tailscale, subnet routing, split DNS, nftables
+- **Remote access:** Bastion host, SSH ProxyJump, private Tailnet
+- **Security:** HashiCorp Vault, ACL policies, audit logging, secrets management
+- **DNS:** Cloudflare public DNS and private split-horizon DNS
 - **Automation:** CI/CD runners and infrastructure automation
 - **Monitoring:** Service availability and infrastructure monitoring
+
 
 ## Self-Hosted Services
 

@@ -187,37 +187,40 @@
     margin: 2rem auto;
 ">
     <div class="homelab-architecture" style="
-        width: 620px;
-        max-width: 90%;
+        width: 1000px;
+        max-width: 95%;
         margin: 0 auto;
     ">
 
         <div class="mermaid">
-flowchart TD
+        flowchart LR
+            Admin["Remote Access"]
 
-    Remote["Remote Administration"]
+            subgraph Tailnet["Private Tailscale Network"]
+                Bastion["Bastion VM<br/>SSH Jump Host<br/>Subnet Router"]
+            end
 
-    subgraph Infra["Proxmox VE"]
-        direction TB
+            subgraph LAN["Private HomeLab Network"]
+                Vault["Vault<br/>Secrets & Identity"]
+                Services["Internal Services"]
+                VMs["Virtual Machines"]
+            end
 
-        Bastion["Bastion VM"]
+            Admin -->|"Tailscale <br> SSH ProxyJump"| Bastion
 
-        Services["Services"]
-        VMs["Virtual Machines"]
-        Workloads["Other Workloads"]
+            Bastion -->|"Private subnet routing"| Vault
+            Bastion --> Services
+            Bastion --> VMs
 
-        Bastion --> Services
-        Bastion --> VMs
-        Bastion --> Workloads
-    end
+            classDef external fill:#f5f5f5,stroke:#666,stroke-width:1px;
+            classDef gateway fill:#e8f1ff,stroke:#3169a8,stroke-width:2px;
+            classDef security fill:#fff2cc,stroke:#b38f00,stroke-width:2px;
+            classDef workload fill:#eef7ee,stroke:#4d7c4d,stroke-width:1px;
 
-    Remote -->|"Tailscale"| Bastion
-
-    class Remote external;
-    class Bastion bastion;
-    class Services,VMs,Workloads workload;
-
+            class Admin external;
+            class Bastion gateway;
+            class Vault security;
+            class Services,VMs workload;
         </div>
-
     </div>
 </div>
