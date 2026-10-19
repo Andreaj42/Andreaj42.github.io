@@ -9,7 +9,7 @@ weight: 1
 I am currently pursuing a Ph.D. with the [MARACAS](https://team.inria.fr/maracas/) team at [Inria](https://www.inria.fr/fr) Lyon, France, since November 2024.  
 - Thesis title: Deep Learning for Radio Signal Classification
 - Doctoral School: [ED160 EEA](https://edeea.universite-lyon.fr)
-- Funded by [Inria](https://www.inria.fr/fr) and the Direction générale de l'Armement ([DGA](https://www.defense.gouv.fr/dga))
+- Funded by [Inria](https://www.inria.fr/fr) and the Direction générale de l'armement ([DGA](https://www.defense.gouv.fr/dga))
 
 ### Thesis Overview
 
@@ -19,13 +19,16 @@ By combining advanced neural architectures with modern signal processing, this w
 
 To this end, I design realistic datasets using the [CorteXlab](https://cortexlab.fr/) testbed. The overarching goal is to contribute to next-generation intelligent spectrum monitoring and sensing systems.
 
+
+### Research Tools
+
+I develop open-source tools to support different aspects of my research, from experimental RF dataset generation to automated scientific literature monitoring.
+
+{% include research/project-cards.html %}
+
+
 ### Publications
 - *(Coming soon)*
-
-### Supervision
-
-- **Ana Luisa Girio Berlingieri** (Apr.–Aug. 2026) — Research Intern, UTFPR, Brazil  
-  *Automatic Modulation Classification using State-Space Models (Mamba)* — co-supervised with Leonardo S. Cardoso
 
 ### Scientific Service
 - Reviewer for [IEEE WCNC 2026](https://wcnc2026.ieee-wcnc.org) (via EDAS) 

@@ -1,0 +1,27 @@
+<div class="mermaid">
+
+sequenceDiagram
+    participant S as Sync Node
+    participant TX1 as TX Node 1
+    participant TX2 as TX Node N
+    participant RX1 as RX Node 1
+    participant RX2 as RX Node N
+
+    TX1->>S: READY
+    TX2->>S: READY
+    RX1->>S: READY
+    RX2->>S: READY
+
+    Note over S: All participants ready
+
+    S-->>TX1: GO
+    S-->>TX2: GO
+    S-->>RX1: GO
+    S-->>RX2: GO
+
+    Note over TX1,RX2: Hardware time synchronization
+
+    TX1->>RX1: RF transmission
+    TX1->>RX2: RF transmission
+    
+</div>

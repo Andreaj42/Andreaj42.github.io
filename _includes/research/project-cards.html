@@ -1,0 +1,25 @@
+
+{% assign research_projects = site.projects | sort: "weight" %}
+
+<div class="row mt-3">
+
+  {% for project in research_projects %}
+    {% if project.path contains "_projects/research/" %}
+
+      {% assign project_type  = "local" %}
+      {% assign project_id    = project.slug | slugify %}
+      {% assign project_img   = project.image %}
+      {% assign project_name  = project.name | default: project.title %}
+      {% assign project_desc  = project.description %}
+      {% assign project_tools = project.tools %}
+      {% assign project_url   = project.url | relative_url %}
+      {% assign external      = false %}
+
+      <div class="col-md-6 mb-3">
+        {% include projects/project-card.html %}
+      </div>
+
+    {% endif %}
+  {% endfor %}
+
+</div>
