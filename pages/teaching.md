@@ -9,6 +9,11 @@ weight: 2
 
 I teach telecommunications courses at **INSA Lyon**, primarily to third-year engineering students.
 
+## Intern Supervision
+
+- **Ana Luisa Girio Berlingieri** (Apr.–Aug. 2026) — Research Intern, UTFPR, Brazil  
+  *Automatic Modulation Classification using State-Space Models (Mamba)* — co-supervised with Leonardo S. Cardoso
+
 ## Teaching Record
 
 ### 2025–2026
