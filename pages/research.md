@@ -19,16 +19,18 @@ By combining advanced neural architectures with modern signal processing, this w
 
 To this end, I design realistic datasets using the [CorteXlab](https://cortexlab.fr/) testbed. The overarching goal is to contribute to next-generation intelligent spectrum monitoring and sensing systems.
 
+### Publications
+
+- **[CorteXforge: Scenario-Based RF Dataset Generation on Real Testbeds](https://hal.science/hal-05802655)**  
+  Andréa Joly, Leonardo S. Cardoso, Jean-Marie Gorce.  
+  A framework for generating realistic, reproducible, and annotated RF datasets on programmable SDR testbeds.  
+  *Preprint, 2026* · [HAL](https://hal.science/hal-05802655) · [arXiv](https://arxiv.org/abs/2610.26999)  
 
 ### Research Tools
 
 I develop open-source tools to support different aspects of my research, from experimental RF dataset generation to automated scientific literature monitoring.
 
 {% include research/project-cards.html %}
-
-
-### Publications
-- *(Coming soon)*
 
 ### Scientific Service
 - Reviewer for [IEEE WCNC 2026](https://wcnc2026.ieee-wcnc.org) (via EDAS) 
