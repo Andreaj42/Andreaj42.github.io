@@ -22,7 +22,7 @@ To this end, I design realistic datasets using the [CorteXlab](https://cortexlab
 ### Publications
 
 - **[CorteXforge: Scenario-Based RF Dataset Generation on Real Testbeds](https://hal.science/hal-05802655)**  
-  Andréa Joly, Leonardo S. Cardoso, Jean-Marie Gorce.  
+  Andréa Joly, Leonardo S. Cardoso, Jean-Marie Gorce  
   A framework for generating realistic, reproducible, and annotated RF datasets on programmable SDR testbeds.  
   *Preprint, 2026* · [HAL](https://hal.science/hal-05802655) · [arXiv](https://arxiv.org/abs/2610.26999)  
 
