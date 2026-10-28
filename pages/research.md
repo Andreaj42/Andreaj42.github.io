@@ -32,8 +32,10 @@ I develop open-source tools to support different aspects of my research, from ex
 
 {% include research/project-cards.html %}
 
-### Scientific Service
-- Reviewer for [IEEE WCNC 2026](https://wcnc2026.ieee-wcnc.org) (via EDAS) 
+### Academic Service
+
+- **Journal Reviewer:** [IEEE Wireless Communications Letters (WCL)](https://www.comsoc.org/publications/journals/ieee-wcl), 2026  
+- **Conference Reviewer:** [IEEE Wireless Communications and Networking Conference (WCNC)](https://wcnc2026.ieee-wcnc.org/), 2026 
 
 ### Recognition
 - Finalist at the Three-Minute Thesis Competition (3MT) [IEEE ICMCLCN 2025](https://icmlcn2025.ieee-icmlcn.org/) (May 2025)
