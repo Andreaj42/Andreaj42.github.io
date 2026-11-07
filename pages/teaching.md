@@ -9,12 +9,12 @@ weight: 2
 
 I teach telecommunications courses at **INSA Lyon**, primarily to third-year engineering students.
 
-## Intern Supervision
+## Internship Supervision
 
-- **Ana Luisa Girio Berlingieri** (Apr.–Aug. 2026) — Research Intern, UTFPR, Brazil  
+- **Ana Luisa Girio Berlingieri** (Apr.–Aug. 2026) — Research Intern at [Inria](https://inria.fr), UTFPR, Brazil  
   *Automatic Modulation Classification using State-Space Models (Mamba)* — co-supervised with Leonardo S. Cardoso
 
-- **Mohammad Alsayyed Ahmad** (May–Jun. 2024) — [L'Usine Logicielle](https://lusine-logicielle.fr) Intern, Télécom Saint-Etienne, France  
+- **Mohammad Alsayyed Ahmad** (May–Jun. 2024) — Intern at [L'Usine Logicielle](https://lusine-logicielle.fr), Télécom Saint-Etienne, France  
   *Data-Driven Inventory Management using Business Intelligence* — co-supervised with Lucas Perfeito
 
 ## Teaching Record
